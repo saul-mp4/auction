@@ -1,0 +1,75 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+// Looking for ways to speed up your queries, or scale easily with your serverless or edge functions?
+// Try Prisma Accelerate: https://pris.ly/cli/accelerate-init
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id        String   @id @default(uuid())
+  fullName  String   @map("full_name")
+  email     String   @unique
+  password  String
+  createdAt DateTime @default(now()) @map("created_at")
+
+  items          Item[]
+  bids           Bid[]
+  hostedAuctions Auction[] @relation("HostedAuctions")
+  activeAuctions Auction[] @relation("ActiveAuctions")
+
+  @@map("users")
+}
+
+model Item {
+  id        String   @id @default(uuid())
+  title     String
+  price     Int
+  createdAt DateTime @default(now()) @map("created_at")
+
+  user   User   @relation(fields: [userId], references: [id])
+  userId String @map("user_id")
+
+  auction Auction?
+
+  @@map("items")
+}
+
+model Bid {
+  id    String @id @default(uuid())
+  price Int
+
+  user   User   @relation(fields: [userId], references: [id])
+  userId String @map("user_id")
+
+  auction   Auction @relation(fields: [auctionId], references: [id])
+  auctionId String  @map("auction_id")
+
+  @@map("bids")
+}
+
+model Auction {
+  id        String   @id @default(uuid())
+  title     String
+  startTime DateTime @map("start_time")
+  endTime   DateTime @map("end_time")
+  createdAt DateTime @default(now()) @map("created_at")
+
+  item   Item   @relation(fields: [itemId], references: [id])
+  itemId String @unique @map("item_id")
+
+  userSeller   User   @relation("HostedAuctions", fields: [userSellerId], references: [id])
+  userSellerId String @map("user_seller_id")
+
+  userBuyers User[] @relation("ActiveAuctions")
+  bids       Bid[]
+
+  @@map("auctions")
+}
