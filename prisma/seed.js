@@ -4,6 +4,7 @@ const prisma = new PrismaClient();
 
 const users = require("./data/users.json");
 const items = require("./data/items.json");
+const auctions = require("./data/auctions.json");
 
 async function main() {
   await prisma.user.createMany({
@@ -12,6 +13,10 @@ async function main() {
   });
   await prisma.item.createMany({
     data: items,
+    skipDuplicates: true,
+  });
+  await prisma.auction.createMany({
+    data: auctions,
     skipDuplicates: true,
   });
 }

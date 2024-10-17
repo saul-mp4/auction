@@ -4,11 +4,12 @@ const { faker } = require("@faker-js/faker");
 
 const users = require("../data/users.json");
 
-function createItems() {
+function generate() {
   const items = users
     .map((user) => {
       const items = Array.from({ length: 10 }).map(() => {
         return {
+          id: faker.string.uuid(),
           userId: user.id,
           title: faker.food.fruit(),
           price: faker.number.int({ min: 10, max: 200 }),
@@ -22,4 +23,4 @@ function createItems() {
   fs.writeFileSync(filePath, JSON.stringify(items), "utf-8");
 }
 
-createItems();
+generate();

@@ -1,0 +1,42 @@
+[
+  {
+    "id": "c0971c75-a397-433b-900a-6fa1f84f7680",
+    "title": "Hagenes - Hilll",
+    "startTime": "2024-10-22T10:10:05.160Z",
+    "endTime": "2024-10-26T11:32:52.547Z",
+    "itemId": "7868a00a-77ba-4ade-be00-9340d07f0961",
+    "userSellerId": "e79975a2-5651-4293-8fad-33e7b5993570"
+  },
+  {
+    "id": "94ed07cc-3dd5-4295-b71a-5aafddc87c35",
+    "title": "Purdy, Spencer and Kirlin",
+    "startTime": "2024-10-22T11:15:45.086Z",
+    "endTime": "2024-10-29T00:31:18.211Z",
+    "itemId": "ac014418-4941-46ff-890e-204c4ee5528b",
+    "userSellerId": "5fdbf0b4-949f-4253-bc66-4899c87b165a"
+  },
+  {
+    "id": "1005e451-c6b8-4113-9172-25154345cc60",
+    "title": "Schowalter Group",
+    "startTime": "2024-10-21T18:09:29.606Z",
+    "endTime": "2024-10-26T11:54:08.128Z",
+    "itemId": "bb52c88c-ac3a-453c-819c-e935fed7ed47",
+    "userSellerId": "16159928-6bc4-4914-a575-63a254f240c1"
+  },
+  {
+    "id": "17d7e9ce-23ef-4a98-bc33-fa62ab89baad",
+    "title": "Flatley - Bashirian",
+    "startTime": "2024-10-20T00:46:24.178Z",
+    "endTime": "2024-10-26T07:53:45.747Z",
+    "itemId": "e8df0e41-3eb4-4d69-b3f9-c5d02806e8fb",
+    "userSellerId": "805f1faa-27d3-43d1-b8f7-343629b131b2"
+  },
+  {
+    "id": "f1d7aaf3-c63e-44e2-9c41-a0c2125e0adf",
+    "title": "Will, Christiansen and Upton",
+    "startTime": "2024-10-23T23:59:20.821Z",
+    "endTime": "2024-10-24T09:57:21.295Z",
+    "itemId": "71d0e2ef-1d66-48d5-93ca-c3cb13b959b5",
+    "userSellerId": "8098cc55-b9ca-4642-b5d4-f0dd0cf0c21a"
+  }
+]
