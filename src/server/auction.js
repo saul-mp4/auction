@@ -1,17 +1,17 @@
 const { PrismaClient } = require("@prisma/client");
 const express = require("express");
 
-const itemsRouter = express.Router();
+const auctionRouter = express.Router();
 const prisma = new PrismaClient();
 
-itemsRouter.get("/", async (req, res) => {
+auctionRouter.get("/:userId", async (req, res) => {
   res.json(
     await prisma.item.findMany({
       where: {
-        userId: req.user.id,
+        userId: req.params.userId,
       },
     }),
   );
 });
 
-module.exports = itemsRouter;
+module.exports = auctionRouter;
