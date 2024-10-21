@@ -1,33 +1,20 @@
 {
     "name": "auction-post",
     "packageManager": "yarn@4.3.1",
+    "type": "module",
+    "private": true,
     "scripts": {
-        "start": "nodemon ./src/server",
-        "generate": "node ./prisma/scripts/generate.js"
+        "dev": "yarn dev:server & yarn dev:client",
+        "dev:server": "yarn workspace server dev",
+        "dev:client": "yarn workspace client dev",
+        "prisma": "yarn workspace server prisma generate"
     },
-    "dependencies": {
-        "@prisma/client": "5.20.0",
-        "bcrypt": "^5.1.1",
-        "express": "^4.21.0",
-        "jsonwebtoken": "^9.0.2",
-        "passport": "^0.7.0",
-        "passport-jwt": "^4.0.1"
-    },
+    "workspaces": [
+        "packages/*"
+    ],
     "devDependencies": {
-        "@eslint/js": "^9.12.0",
-        "@faker-js/faker": "^9.0.3",
-        "@sveltejs/vite-plugin-svelte": "^4.0.0",
-        "eslint": "^9.12.0",
+        "eslint": "^9.13.0",
         "eslint-plugin-prettier": "^5.2.1",
-        "globals": "^15.11.0",
-        "nodemon": "^3.1.7",
-        "prettier": "3.3.3",
-        "prisma": "^5.20.0",
-        "svelte": "^5.0.3",
-        "vite": "^5.4.9"
-    },
-    "prisma": {
-        "seed": "node prisma/seed.js"
-    },
-    "type": "module"
+        "prettier": "^3.3.3"
+    }
 }
