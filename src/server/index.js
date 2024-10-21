@@ -1,22 +1,29 @@
-const express = require("express");
-const passport = require("./passport.js");
-const userRouter = require("./user.js");
-const itemsRouter = require("./items.js");
-const authRouter = require("./auth.js");
-const auctionRouter = require("./auction.js");
+import express from 'express';
+import passport from './passport.js';
+import path from 'path';
+
+//Routes
+import userRouter from './user.js';
+
+import itemsRouter from './items.js';
+import authRouter from './auth.js';
+import auctionRouter from './auction.js';
 
 const app = express();
 
 app.use(express.json());
+app.use(express.static(path.join(__dirname, '../client')));
 
-app.use("/api", authRouter);
+// app.use("")
 
-app.use(passport.authenticate("jwt", { session: false }));
+app.use('/api', authRouter);
 
-app.use("/api/user", userRouter);
-app.use("/api/items", itemsRouter);
-app.use("/api/auctions", auctionRouter);
+app.use(passport.authenticate('jwt', { session: false }));
+
+app.use('/api/user', userRouter);
+app.use('/api/items', itemsRouter);
+app.use('/api/auctions', auctionRouter);
 
 app.listen(3000, () => {
-  console.log("Server started");
+    console.log('Server started');
 });

@@ -1,17 +1,17 @@
-const { PrismaClient } = require("@prisma/client");
-const express = require("express");
+import { PrismaClient } from '@prisma/client';
+import express from 'express';
 
 const itemsRouter = express.Router();
 const prisma = new PrismaClient();
 
-itemsRouter.get("/", async (req, res) => {
-  res.json(
-    await prisma.item.findMany({
-      where: {
-        userId: req.user.id,
-      },
-    }),
-  );
+itemsRouter.get('/', async (req, res) => {
+    res.json(
+        await prisma.item.findMany({
+            where: {
+                userId: req.user.id,
+            },
+        })
+    );
 });
 
-module.exports = itemsRouter;
+export default itemsRouter;
