@@ -6,22 +6,26 @@ import jwt from 'jsonwebtoken';
 const authRouter = express.Router();
 const prisma = new PrismaClient();
 
-authRouter.post('/register', async (req, res) => {
-    const { email, password, fullName } = req.body;
-    const hashed = await bcrypt.hash(password, +process.env.BCRYPT_SALT);
+authRouter.post('/register', async (req, res, next) => {
+    try {
+        const { email, password, fullName } = req.body;
+        const hashed = await bcrypt.hash(password, +process.env.BCRYPT_SALT);
 
-    const user = await prisma.user.create({
-        data: {
-            email,
-            password: hashed,
-            fullName,
-        },
-    });
+        const user = await prisma.user.create({
+            data: {
+                email,
+                password: hashed,
+                fullName,
+            },
+        });
 
-    res.json(user);
+        res.json(user);
+    } catch (e) {
+        next(e);
+    }
 });
 
-authRouter.post('/login', async (req, res) => {
+authRouter.post('/login', async (req, res, next) => {
     const { email, password } = req.body;
     try {
         const user = await prisma.user.findUnique({
@@ -45,8 +49,8 @@ authRouter.post('/login', async (req, res) => {
         } else {
             res.status(401).send('Wrong email or password');
         }
-    } catch {
-        res.status(401).send('Wrong email or password');
+    } catch (e) {
+        next(e);
     }
 });
 
