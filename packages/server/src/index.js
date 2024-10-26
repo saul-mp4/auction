@@ -4,7 +4,6 @@ import passport from './passport.js';
 
 //Routes
 import userRouter from './user.js';
-
 import itemsRouter from './items.js';
 import authRouter from './auth.js';
 import auctionRouter from './auction.js';
