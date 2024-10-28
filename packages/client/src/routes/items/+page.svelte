@@ -19,6 +19,7 @@
                 <tr class="odd:bg-white even:bg-slate-200 *:p-2">
                     <td>{item.title}</td>
                     <td>{item.price}</td>
+                    <td><button>Create auction</button></td>
                 </tr>
             {/each}
         </tbody>

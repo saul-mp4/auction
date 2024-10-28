@@ -1149,6 +1149,7 @@ __metadata:
     "@tailwindcss/typography": "npm:^0.5.14"
     autoprefixer: "npm:^10.4.20"
     axios: "npm:^1.7.7"
+    date-fns: "npm:^4.1.0"
     svelte: "npm:^4.2.7"
     tailwind-merge: "npm:^2.5.4"
     tailwindcss: "npm:^3.4.9"
@@ -1281,6 +1282,13 @@ __metadata:
   bin:
     cssesc: bin/cssesc
   checksum: 10c0/6bcfd898662671be15ae7827120472c5667afb3d7429f1f917737f3bf84c4176003228131b643ae74543f17a394446247df090c597bb9a728cce298606ed0aa7
+  languageName: node
+  linkType: hard
+
+"date-fns@npm:^4.1.0":
+  version: 4.1.0
+  resolution: "date-fns@npm:4.1.0"
+  checksum: 10c0/b79ff32830e6b7faa009590af6ae0fb8c3fd9ffad46d930548fbb5acf473773b4712ae887e156ba91a7b3dc30591ce0f517d69fd83bd9c38650fdc03b4e0bac8
   languageName: node
   linkType: hard
 
