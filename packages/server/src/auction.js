@@ -4,40 +4,42 @@ import express from 'express';
 const auctionRouter = express.Router();
 const prisma = new PrismaClient();
 
-auctionRouter.get('/(my)?', async (req, res) => {
+auctionRouter.get('/', async (req, res) => {
+    const { status } = req.body;
     res.json(
         await prisma.auction.findMany({
             where: {
                 userSellerId: req.user.id,
-            },
-        })
-    );
-});
-
-auctionRouter.get('/others', async (req, res) => {
-    res.json(
-        await prisma.auction.findMany({
-            where: {
-                userSellerId: {
-                    not: req.user.id,
-                },
+                status,
             },
         })
     );
 });
 
 auctionRouter.post('/', async (req, res) => {
-    const { title, startTime, endTime, itemId } = req.body;
+    const { title, startTime } = req.body;
     const auction = await prisma.auction.create({
         data: {
+            userSellerId: req.user.id,
             title,
             startTime: new Date(startTime),
-            endTime: new Date(endTime),
-            itemId,
-            userSellerId: req.user.id,
         },
     });
     res.json(auction);
+});
+
+auctionRouter.delete('/', async (req, res, next) => {
+    const { id } = req.body;
+    try {
+        const auctions = await prisma.auction.delete({
+            where: {
+                id,
+            },
+        });
+        res.status(200).json(auctions);
+    } catch (e) {
+        next(e);
+    }
 });
 
 export default auctionRouter;

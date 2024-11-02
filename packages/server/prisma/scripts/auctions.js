@@ -2,8 +2,8 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { faker } from '@faker-js/faker';
 
-const users = faker.helpers.arrayElements(require('../data/users.json'), 5);
-import items from '../data/items.json';
+import users from '../data/users.json' assert { type: 'json' };
+import items from '../data/items.json' assert { type: 'json' };
 
 function generate() {
     const auctions = users.map((user) => {
@@ -29,7 +29,7 @@ function generate() {
         };
     });
 
-    const filePath = path.join(__dirname, '../data/auctions.json');
+    const filePath = path.join(import.meta.dirname, '../data/auctions.json');
     fs.writeFileSync(filePath, JSON.stringify(auctions), 'utf-8');
 }
 

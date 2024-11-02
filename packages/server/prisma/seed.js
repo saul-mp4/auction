@@ -2,9 +2,9 @@ import { PrismaClient } from '@prisma/client';
 
 const prisma = new PrismaClient();
 
-import users from './data/users.json';
-import items from './data/items.json';
-import auctions from './data/auctions.json';
+import users from './data/users.json' assert { type: 'json' };
+import items from './data/items.json' assert { type: 'json' };
+import auctions from './data/auctions.json' assert { type: 'json' };
 
 async function main() {
     await prisma.user.createMany({

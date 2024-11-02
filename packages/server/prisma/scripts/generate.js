@@ -4,4 +4,4 @@ if (!filename) {
     process.exit(1);
 }
 
-require(`./${filename}`);
+import(`./${filename}`);
