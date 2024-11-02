@@ -1,6 +1,7 @@
 import 'dotenv/config';
 import express from 'express';
 import passport from './passport.js';
+import cors from 'cors';
 
 //Routes
 import userRouter from './user.js';
@@ -13,6 +14,13 @@ const app = express();
 app.get('/', (_, res) => res.send('Hello, this is server!'));
 
 app.use(express.json());
+app.use(
+    cors({
+        origin: 'http://localhost:5173',
+        methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
+        allowedHeaders: ['Content-Type', 'Authorization'],
+    })
+);
 
 app.use('/', authRouter);
 

@@ -1,8 +1,14 @@
 import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
-import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import {
+    createBrowserRouter,
+    RouterProvider,
+    redirect,
+} from 'react-router-dom';
 import { App, Auctions, Items, Login, Register, CreateAuctions } from './pages';
 import { Container, Protected } from './layouts';
+import { authorize } from './loaders';
+import { login } from './axios';
 import './index.css';
 
 const router = createBrowserRouter([
@@ -16,9 +22,20 @@ const router = createBrowserRouter([
             {
                 path: '/login',
                 element: <Login />,
+                action: async ({ request }) => {
+                    const formData = await request.formData();
+                    const response = await login(
+                        formData.get('email'),
+                        formData.get('password')
+                    );
+
+                    if (response.status === 200) return redirect('/');
+                    return null;
+                },
             },
             {
                 element: <Protected />,
+                loader: authorize,
                 children: [
                     {
                         path: '/',
