@@ -1,4 +1,4 @@
-import { Form, Link, redirect } from 'react-router-dom';
+import { Form, Link } from 'react-router-dom';
 
 export function Login() {
     return (
@@ -31,7 +31,7 @@ export function Login() {
                 Login
             </button>
             <Link to="/register" className="text-lg mx-auto">
-                Don't have account yet?
+                Don&apos;t have account yet?
             </Link>
         </Form>
     );

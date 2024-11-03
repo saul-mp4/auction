@@ -2,7 +2,7 @@ export function Register() {
     return (
         <form className="flex flex-col gap-2 w-1/2 mx-auto mt-24 text-xl mb-12">
             <h1 className="text-center mb-4">Register new account</h1>
-            <label className="text-lg flex flex-col gap-1" for="fullName">
+            <label className="text-lg flex flex-col gap-1" htmlFor="fullName">
                 Name and Surname
                 <input
                     className="text-lg px-1"
@@ -12,7 +12,7 @@ export function Register() {
                     required
                 />
             </label>
-            <label className="text-lg flex flex-col gap-1" for="email">
+            <label className="text-lg flex flex-col gap-1" htmlFor="email">
                 Email
                 <input
                     className="text-lg px-1"
@@ -22,7 +22,7 @@ export function Register() {
                     required
                 />
             </label>
-            <label className="text-lg flex flex-col gap-1" for="password">
+            <label className="text-lg flex flex-col gap-1" htmlFor="password">
                 Password
                 <input
                     className="text-lg px-1"

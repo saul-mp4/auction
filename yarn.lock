@@ -755,6 +755,24 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@tanstack/query-core@npm:5.59.17":
+  version: 5.59.17
+  resolution: "@tanstack/query-core@npm:5.59.17"
+  checksum: 10c0/e867b2e5e6a9ff4dd77064ee53645f0c547f55f1d8e1e214860b2a0433606d8d00455b310a03db7df676a99fae06332c1af80fe05546badfa0d851bb259e6ef7
+  languageName: node
+  linkType: hard
+
+"@tanstack/react-query@npm:^5.59.18":
+  version: 5.59.18
+  resolution: "@tanstack/react-query@npm:5.59.18"
+  dependencies:
+    "@tanstack/query-core": "npm:5.59.17"
+  peerDependencies:
+    react: ^18 || ^19
+  checksum: 10c0/161530d4a09673acc6b29a35892952c77e105bcfde8cad3918436b76477a27d720643bb1cab733ba7624a1f99f1cb2016e0e9bf319d827eae7ec944e907201f1
+  languageName: node
+  linkType: hard
+
 "@types/estree@npm:1.0.6, @types/estree@npm:^1.0.6":
   version: 1.0.6
   resolution: "@types/estree@npm:1.0.6"
@@ -1080,6 +1098,7 @@ __metadata:
     eslint-plugin-react: "npm:^7.37.2"
     eslint-plugin-react-hooks: "npm:^5.0.0"
     eslint-plugin-react-refresh: "npm:^0.4.14"
+    globals: "npm:^15.11.0"
     prettier: "npm:^3.3.3"
   languageName: unknown
   linkType: soft
@@ -1323,13 +1342,13 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "client@workspace:packages/client"
   dependencies:
+    "@tanstack/react-query": "npm:^5.59.18"
     "@types/react": "npm:^18.3.12"
     "@types/react-dom": "npm:^18.3.1"
     "@vitejs/plugin-react-swc": "npm:^3.5.0"
     autoprefixer: "npm:^10.4.20"
     axios: "npm:^1.7.7"
     date-fns: "npm:^4.1.0"
-    globals: "npm:^15.11.0"
     postcss: "npm:^8.4.47"
     react: "npm:^18.3.1"
     react-dom: "npm:^18.3.1"

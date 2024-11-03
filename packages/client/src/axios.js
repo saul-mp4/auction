@@ -4,12 +4,18 @@ const instance = axios.create({
     baseURL: 'http://localhost:3000',
 });
 
-const jwt = localStorage.getItem('jwt');
-
-if (!jwt) {
-    instance.defaults.headers.common['Authorization'] =
-        `Bearer ${response.data}`;
-}
+instance.interceptors.request.use(
+    (config) => {
+        const jwt = localStorage.getItem('jwt');
+        if (jwt) {
+            config.headers.Authorization = `Bearer ${jwt}`;
+        }
+        return config;
+    },
+    (error) => {
+        return Promise.reject(error);
+    }
+);
 
 export async function login(email, password) {
     const response = await instance.post('/login', {
@@ -18,8 +24,24 @@ export async function login(email, password) {
     });
 
     localStorage.setItem('jwt', response.data);
-    instance.defaults.headers.common['Authorization'] =
-        `Bearer ${response.data}`;
-
     return response;
 }
+
+export const auctionRequests = {
+    get: async () => {
+        return await instance.get('/auctions');
+    },
+    delete: async (id) => {
+        return await instance.delete('/auctions', {
+            data: {
+                id,
+            },
+        });
+    },
+    post: async (title, startTime) => {
+        return await instance.post('/auctions', {
+            title,
+            startTime,
+        });
+    },
+};

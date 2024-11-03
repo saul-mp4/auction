@@ -8,7 +8,8 @@ import reactRefresh from 'eslint-plugin-react-refresh';
 export default [
     js.configs.recommended,
     {
-        files: ['**/*.{js,jsx}'],
+        // Client-specific configuration
+        files: ['packages/client/**/*.{js,jsx}'],
         languageOptions: {
             ecmaVersion: 2020,
             sourceType: 'module',
@@ -46,5 +47,29 @@ export default [
             ],
         },
     },
-    { ignores: ['dist'] },
+    {
+        // Server-specific configuration
+        files: ['packages/server/**/*.{js,ts}'],
+        languageOptions: {
+            ecmaVersion: 2020,
+            sourceType: 'module',
+            globals: {
+                ...globals.node,
+            },
+        },
+        plugins: {
+            prettier: eslintPluginPrettier,
+        },
+        rules: {
+            'prettier/prettier': 'error',
+            'no-console': 'warn',
+        },
+    },
+    {
+        ignores: ['dist'],
+        // env: {
+        //     browser: true,
+        //     node: true,
+        // },
+    },
 ];
