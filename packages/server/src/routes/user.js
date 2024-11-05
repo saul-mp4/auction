@@ -1,8 +1,7 @@
-import { PrismaClient } from '@prisma/client';
 import express from 'express';
+import { prisma } from '../../prisma/client.js';
 
-const userRouter = express.Router();
-const prisma = new PrismaClient();
+export const userRouter = express.Router();
 
 userRouter.get('/', async (req, res) => {
     res.json(
@@ -13,5 +12,3 @@ userRouter.get('/', async (req, res) => {
         })
     );
 });
-
-export default userRouter;

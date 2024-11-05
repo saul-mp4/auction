@@ -1,13 +1,14 @@
 import 'dotenv/config';
 import express from 'express';
-import passport from './passport.js';
 import cors from 'cors';
 
-//Routes
-import userRouter from './user.js';
-import itemsRouter from './items.js';
-import authRouter from './auth.js';
-import auctionRouter from './auction.js';
+import passport from './passport.js';
+import {
+    authRouter,
+    userRouter,
+    itemRouter,
+    auctionRouter,
+} from './routes/index.js';
 
 const app = express();
 
@@ -27,7 +28,7 @@ app.use('/', authRouter);
 app.use(passport.authenticate('jwt', { session: false }));
 
 app.use('/user', userRouter);
-app.use('/items', itemsRouter);
+app.use('/items', itemRouter);
 app.use('/auctions', auctionRouter);
 
 app.listen(3000, () => {

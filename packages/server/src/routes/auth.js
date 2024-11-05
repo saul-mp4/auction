@@ -1,10 +1,9 @@
-import { PrismaClient } from '@prisma/client';
 import express from 'express';
 import bcrypt from 'bcrypt';
 import jwt from 'jsonwebtoken';
+import { prisma } from '../../prisma/client.js';
 
-const authRouter = express.Router();
-const prisma = new PrismaClient();
+export const authRouter = express.Router();
 
 authRouter.post('/register', async (req, res, next) => {
     try {
@@ -53,5 +52,3 @@ authRouter.post('/login', async (req, res, next) => {
         next(e);
     }
 });
-
-export default authRouter;

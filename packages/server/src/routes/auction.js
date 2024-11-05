@@ -1,8 +1,9 @@
-import { PrismaClient } from '@prisma/client';
 import express from 'express';
 
-const auctionRouter = express.Router();
-const prisma = new PrismaClient();
+import { prisma } from '../../prisma/client.js';
+import { auctinonQueue } from '../bull.js';
+
+export const auctionRouter = express.Router();
 
 auctionRouter.get('/', async (req, res) => {
     const { status } = req.body;
@@ -18,13 +19,17 @@ auctionRouter.get('/', async (req, res) => {
 
 auctionRouter.post('/', async (req, res) => {
     const { title, startTime } = req.body;
+    const startTimeDate = new Date(startTime);
     const auction = await prisma.auction.create({
         data: {
             userSellerId: req.user.id,
             title,
-            startTime: new Date(startTime),
+            startTime: startTimeDate,
         },
     });
+    //Schedule status change
+    const delay = startTimeDate.getTime() - Date.now();
+    await auctinonQueue.add(auction.id, { status: 'STARTED' }, { delay });
     res.json(auction);
 });
 
@@ -41,5 +46,3 @@ auctionRouter.delete('/', async (req, res, next) => {
         next(e);
     }
 });
-
-export default auctionRouter;
