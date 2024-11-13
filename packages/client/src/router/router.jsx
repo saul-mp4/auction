@@ -6,9 +6,10 @@ import {
     Login,
     Register,
     AuctionsCreate,
+    AuctionRoom,
 } from '../pages';
 import { Container, Protected } from '../layouts';
-import { authorizeLoader } from './loaders';
+import { auctionRoomLoader, authorizeLoader } from './loaders';
 import { createAuctionAction, loginAction } from './actions';
 
 export const router = createBrowserRouter([
@@ -43,6 +44,11 @@ export const router = createBrowserRouter([
                                 path: 'create',
                                 element: <AuctionsCreate />,
                                 action: createAuctionAction,
+                            },
+                            {
+                                path: 'room/:auctionId',
+                                element: <AuctionRoom />,
+                                loader: auctionRoomLoader,
                             },
                         ],
                     },

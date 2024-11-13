@@ -28,8 +28,11 @@ export async function login(email, password) {
 }
 
 export const auctionRequests = {
-    get: async () => {
+    getAll: async () => {
         return await instance.get('/auctions');
+    },
+    getOne: async (id) => {
+        return await instance.get(`/auctions/${id}`);
     },
     delete: async (id) => {
         return await instance.delete('/auctions', {

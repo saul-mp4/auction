@@ -1,7 +1,6 @@
-import { PrismaClient } from '@prisma/client';
 import passport from 'passport';
 import { Strategy, ExtractJwt } from 'passport-jwt';
-const prisma = new PrismaClient();
+import { prisma } from '../prisma/client.js';
 
 passport.use(
     new Strategy(

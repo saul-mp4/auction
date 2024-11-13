@@ -1,13 +1,14 @@
 import { useQuery, useMutation, useQueryClient } from '@tanstack/react-query';
 import { format } from 'date-fns';
 import { auctionRequests } from '../axios';
+import { Link } from 'react-router-dom';
 
 export function Auctions() {
     const queryClient = useQueryClient();
 
     const query = useQuery({
         queryKey: ['auctions'],
-        queryFn: auctionRequests.get,
+        queryFn: auctionRequests.getAll,
     });
 
     const mutation = useMutation({
@@ -52,6 +53,11 @@ export function Auctions() {
                                         >
                                             Delete
                                         </button>
+                                    </td>
+                                    <td>
+                                        <Link to={`room/${id}`}>
+                                            Go to room
+                                        </Link>
                                     </td>
                                 </tr>
                             );

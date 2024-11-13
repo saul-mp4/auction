@@ -17,6 +17,17 @@ auctionRouter.get('/', async (req, res) => {
     );
 });
 
+auctionRouter.get('/:id', async (req, res) => {
+    const { id } = req.params;
+    res.json(
+        await prisma.auction.findUnique({
+            where: {
+                id,
+            },
+        })
+    );
+});
+
 auctionRouter.post('/', async (req, res) => {
     const { title, startTime } = req.body;
     const startTimeDate = new Date(startTime);

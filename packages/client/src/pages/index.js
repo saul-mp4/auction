@@ -4,3 +4,4 @@ export * from './login';
 export * from './items';
 export * from './auctions';
 export * from './auctions-create';
+export * from './auction-room';
