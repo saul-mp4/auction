@@ -31,6 +31,9 @@ export const auctionRequests = {
     getAll: async () => {
         return await instance.get('/auctions');
     },
+    getAllOther: async () => {
+        return await instance.get('/auctions/browse');
+    },
     getOne: async (id) => {
         return await instance.get(`/auctions/${id}`);
     },

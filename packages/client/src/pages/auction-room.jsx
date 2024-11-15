@@ -1,14 +1,20 @@
 import { useEffect } from 'react';
 import { useLoaderData } from 'react-router-dom';
 import { socket } from '../socket';
+import { EventChat } from '../components';
 
 export function AuctionRoom() {
     const auction = useLoaderData();
     useAuctionSocket(auction);
     return (
         <div>
-            <h1>Auction Room - {auction.title}</h1>
-            <h2>Status - {auction.status}</h2>
+            <h1 className="text-center mb-8">
+                {auction.title}, {auction.status}
+            </h1>
+            <div className="flex justify-between">
+                <h2>{auction.status}</h2>
+                <EventChat />
+            </div>
         </div>
     );
 }
@@ -16,11 +22,5 @@ export function AuctionRoom() {
 function useAuctionSocket(auction) {
     useEffect(() => {
         socket.emit('auctionId', auction.id);
-
-        socket.on('joined', (event) => console.log(event));
-
-        return () => {
-            socket.off('joined');
-        };
     }, [auction]);
 }

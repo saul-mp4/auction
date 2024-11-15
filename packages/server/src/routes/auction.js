@@ -7,11 +7,32 @@ export const auctionRouter = express.Router();
 
 auctionRouter.get('/', async (req, res) => {
     const { status } = req.body;
+    const user = req.user;
     res.json(
         await prisma.auction.findMany({
             where: {
-                userSellerId: req.user.id,
+                userSellerId: user.id,
                 status,
+            },
+        })
+    );
+});
+
+auctionRouter.get('/browse', async (req, res) => {
+    const { status } = req.body;
+    const user = req.user;
+    res.json(
+        await prisma.auction.findMany({
+            where: {
+                userSellerId: { not: user.id },
+                status,
+            },
+            include: {
+                userSeller: {
+                    select: {
+                        fullName: true,
+                    },
+                },
             },
         })
     );

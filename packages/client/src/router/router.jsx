@@ -7,6 +7,7 @@ import {
     Register,
     AuctionsCreate,
     AuctionRoom,
+    AuctionsBrowse,
 } from '../pages';
 import { Container, Protected } from '../layouts';
 import { auctionRoomLoader, authorizeLoader } from './loaders';
@@ -49,6 +50,10 @@ export const router = createBrowserRouter([
                                 path: 'room/:auctionId',
                                 element: <AuctionRoom />,
                                 loader: auctionRoomLoader,
+                            },
+                            {
+                                path: 'browse',
+                                element: <AuctionsBrowse />,
                             },
                         ],
                     },
