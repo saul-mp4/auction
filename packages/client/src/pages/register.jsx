@@ -1,6 +1,11 @@
+import { Form } from 'react-router-dom';
+
 export function Register() {
     return (
-        <form className="flex flex-col gap-2 w-1/2 mx-auto mt-24 text-xl mb-12">
+        <Form
+            className="flex flex-col gap-2 w-1/2 mx-auto mt-24 text-xl mb-12"
+            method="post"
+        >
             <h1 className="text-center mb-4">Register new account</h1>
             <label className="text-lg flex flex-col gap-1" htmlFor="fullName">
                 Name and Surname
@@ -32,7 +37,9 @@ export function Register() {
                     required
                 />
             </label>
-            <button className="mt-4 text-lg p-1">Create account</button>
-        </form>
+            <button className="mt-4 text-lg p-1" type="submit">
+                Create account
+            </button>
+        </Form>
     );
 }

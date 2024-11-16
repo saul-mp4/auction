@@ -1,1202 +1,1402 @@
 [
     {
-        "id": "c0a99b00-7024-4c3d-ba6d-83e0103e1025",
+        "id": "3bd80b1c-163b-4706-9f8a-49cdb8258f64",
         "userId": "b6c23bf9-0b27-48f1-a82b-82844c082843",
-        "title": "custard apples daikon",
-        "price": 161
+        "title": "Honeydew Melon-infused Pigeon Roast",
+        "author": "Dr. Cecilia Collier",
+        "collection": "New Mexican"
     },
     {
-        "id": "458828fb-77b8-4a73-a6c6-ba2dd3d0c485",
+        "id": "e4503002-e644-434a-b344-13cab7b7a89b",
         "userId": "b6c23bf9-0b27-48f1-a82b-82844c082843",
-        "title": "cantaloupe",
-        "price": 103
+        "title": "French Toast",
+        "author": "Heidi Davis",
+        "collection": "Caribbean"
     },
     {
-        "id": "b24dca3d-1b71-4b56-a381-bead3bdb4114",
+        "id": "caedffb9-974a-43c7-b129-8d4def961988",
         "userId": "b6c23bf9-0b27-48f1-a82b-82844c082843",
-        "title": "sprout",
-        "price": 68
+        "title": "Caesar Salad",
+        "author": "Lynn Casper",
+        "collection": "Laotian"
     },
     {
-        "id": "8037ae0e-8b24-4f54-ac8b-d439f43f439b",
+        "id": "88d1f36c-9726-4d2a-9c0a-52ee8920e08f",
         "userId": "b6c23bf9-0b27-48f1-a82b-82844c082843",
-        "title": "papaya",
-        "price": 105
+        "title": "Nectarines And Pigeon Pie",
+        "author": "Jerald Smitham",
+        "collection": "Laotian"
     },
     {
-        "id": "2d9818ef-ae29-4c13-865a-cf08edf38361",
+        "id": "a9157492-95c9-41bd-a243-98c65b9a376b",
         "userId": "b6c23bf9-0b27-48f1-a82b-82844c082843",
-        "title": "kiwi fruit",
-        "price": 50
+        "title": "Cheeseburger",
+        "author": "Mr. Roberto Mraz",
+        "collection": "Turkish"
     },
     {
-        "id": "d00f1751-91f6-4bfd-8250-be704ab86366",
+        "id": "2194cf39-ff50-4746-848a-d983569c7824",
         "userId": "b6c23bf9-0b27-48f1-a82b-82844c082843",
-        "title": "passionfruit",
-        "price": 137
+        "title": "Tuna Sashimi",
+        "author": "Mr. Merle Koss",
+        "collection": "Sri Lankan"
     },
     {
-        "id": "548842b9-cd82-442e-a9d9-8d4e9798a597",
+        "id": "f203f01b-e86b-481c-8087-2b80682be500",
         "userId": "b6c23bf9-0b27-48f1-a82b-82844c082843",
-        "title": "papaw",
-        "price": 190
+        "title": "Arepas",
+        "author": "Sammy Jacobson Jr.",
+        "collection": "Circassian"
     },
     {
-        "id": "58e9f47b-6ca3-4dc7-9b6f-1c25ccf7c759",
+        "id": "a2b9bc10-d7dc-46cb-8008-2d32777be3ae",
         "userId": "b6c23bf9-0b27-48f1-a82b-82844c082843",
-        "title": "grape",
-        "price": 151
+        "title": "Linguine With Clams",
+        "author": "Enrique Hoppe",
+        "collection": "Slovenian"
     },
     {
-        "id": "68f25a59-e352-4288-b0cd-a417d32c3a96",
+        "id": "c0547696-612d-4902-a7c4-0be8d7fe11a1",
         "userId": "b6c23bf9-0b27-48f1-a82b-82844c082843",
-        "title": "sprout",
-        "price": 37
+        "title": "Ham And Turkey Pie",
+        "author": "Norman Toy",
+        "collection": "Mexican"
     },
     {
-        "id": "618f7a6c-1035-4b1b-97c7-d2c11808f1ec",
+        "id": "573cfffc-4f73-4a9c-9987-26aceffa787a",
         "userId": "b6c23bf9-0b27-48f1-a82b-82844c082843",
-        "title": "lemon",
-        "price": 127
+        "title": "Vegetable Soup",
+        "author": "Colin Thompson",
+        "collection": "New Mexican"
     },
     {
-        "id": "49b412e2-53e4-4908-8006-d59d339317ba",
+        "id": "d6b2d1bc-edc8-4172-a045-3fc0ace25eb4",
         "userId": "64eaf1e1-47af-4525-aa8b-d6da2682364e",
-        "title": "feijoa",
-        "price": 20
+        "title": "Moist Gujarati Stew",
+        "author": "Minnie Emmerich",
+        "collection": "Italian"
     },
     {
-        "id": "2c8b287b-3a3f-4773-bcee-9f11090ff10f",
+        "id": "6c68dec5-d3e3-41fa-b53c-85d1cfe40dca",
         "userId": "64eaf1e1-47af-4525-aa8b-d6da2682364e",
-        "title": "pomegranate",
-        "price": 75
+        "title": "Allspice And Quail Pie",
+        "author": "Anne Jaskolski",
+        "collection": "Indonesian"
     },
     {
-        "id": "6ab36caf-d23a-4da4-b398-6e3ccb81ec88",
+        "id": "a284e6fd-4519-4594-96f8-a34cc69d1a3a",
         "userId": "64eaf1e1-47af-4525-aa8b-d6da2682364e",
-        "title": "elderberry",
-        "price": 182
+        "title": "Fettuccine Alfredo",
+        "author": "Eva Raynor",
+        "collection": "Laotian"
     },
     {
-        "id": "05525f32-d092-4566-b81e-970a7d3138ff",
+        "id": "8958471a-dacc-4a79-a40c-bdd5e7402334",
         "userId": "64eaf1e1-47af-4525-aa8b-d6da2682364e",
-        "title": "tomato",
-        "price": 77
+        "title": "Red Pepper Salad",
+        "author": "Karla Frami",
+        "collection": "Brazilian"
     },
     {
-        "id": "d1fb7e71-b032-41e4-b8b1-c88f9f1847b8",
+        "id": "79ba1317-032b-45f5-b897-c12415b9022c",
         "userId": "64eaf1e1-47af-4525-aa8b-d6da2682364e",
-        "title": "guava",
-        "price": 98
+        "title": "Pasta Carbonara",
+        "author": "Casey Mertz",
+        "collection": "Nepalese"
     },
     {
-        "id": "c0c91b42-6876-4861-9d19-1d4325bb68c5",
+        "id": "2ba61af2-61fe-4f42-a392-75bf93614678",
         "userId": "64eaf1e1-47af-4525-aa8b-d6da2682364e",
-        "title": "starfruit",
-        "price": 155
+        "title": "Melyna's Special Nashi Pear",
+        "author": "Nettie Bergstrom",
+        "collection": "Buddhist"
     },
     {
-        "id": "22ad8602-3bc6-4c34-90e2-1a6a0e70743b",
+        "id": "b0b97755-d817-4a1d-b82a-a8394a063d43",
         "userId": "64eaf1e1-47af-4525-aa8b-d6da2682364e",
-        "title": "juniper berry",
-        "price": 52
+        "title": "Peking Duck",
+        "author": "Trevor Price",
+        "collection": "Persian"
     },
     {
-        "id": "ce4ce6a9-832e-4688-80ff-d07d0ba1f1b8",
+        "id": "1673d968-dc25-4e6a-969a-9aa20f866b0a",
         "userId": "64eaf1e1-47af-4525-aa8b-d6da2682364e",
-        "title": "custard apple",
-        "price": 198
+        "title": "Kiwi Fruit-glazed Kangaroo Skewers",
+        "author": "Ernestine Morar",
+        "collection": "Karnataka"
     },
     {
-        "id": "d035829a-1cad-4650-9f95-ccffb0ffcf96",
+        "id": "2d496651-a9dd-4368-9403-e12bee8b2bc6",
         "userId": "64eaf1e1-47af-4525-aa8b-d6da2682364e",
-        "title": "aubergine",
-        "price": 153
+        "title": "Pizza",
+        "author": "Alexandra Heller",
+        "collection": "Lebanese"
     },
     {
-        "id": "1e79f555-158e-48e0-8e71-00ef043b23dc",
+        "id": "3da77e9e-ef97-4eca-8d82-c628133ca5d5",
         "userId": "64eaf1e1-47af-4525-aa8b-d6da2682364e",
-        "title": "fingerlime",
-        "price": 166
+        "title": "Quail Steak",
+        "author": "Miss Natalie Braun",
+        "collection": "Buddhist"
     },
     {
-        "id": "96e94ec2-559f-46fc-90cb-acd1018e04b1",
+        "id": "5e061d92-3b83-4089-a542-56abaa7fd747",
         "userId": "f0afd930-ba0c-4ec7-bb47-c7a5286f4af5",
-        "title": "rockmelon",
-        "price": 163
+        "title": "Pork Steak",
+        "author": "Woodrow Botsford",
+        "collection": "Malaysian Indian"
     },
     {
-        "id": "915a8440-6bec-4121-b4ec-438f27e8ec75",
+        "id": "103728d2-7695-4deb-a674-be06be39af25",
         "userId": "f0afd930-ba0c-4ec7-bb47-c7a5286f4af5",
-        "title": "starfruit",
-        "price": 153
+        "title": "Massaman Curry",
+        "author": "Marsha Maggio",
+        "collection": "Vietnamese"
     },
     {
-        "id": "1e4ad8b1-396b-4f69-8732-bdb41319f4b9",
+        "id": "5dbe1962-5c06-4e38-8daa-dd61b2fae2a7",
         "userId": "f0afd930-ba0c-4ec7-bb47-c7a5286f4af5",
-        "title": "kiwiberry",
-        "price": 26
+        "title": "Sweet Albanian Stew",
+        "author": "Sonya Wehner",
+        "collection": "Cajun"
     },
     {
-        "id": "738d275b-9207-4aea-aafc-f11561cc7988",
+        "id": "7c5f3579-011f-4b15-95d0-65d2db60db17",
         "userId": "f0afd930-ba0c-4ec7-bb47-c7a5286f4af5",
-        "title": "cumquat",
-        "price": 151
+        "title": "Kiwiberry Pie",
+        "author": "Traci Klein",
+        "collection": "Latvian"
     },
     {
-        "id": "7e62c84d-a0ed-4d99-9d60-b5594f91ff96",
+        "id": "51276b0a-c3e0-487a-9aa2-d1eac209b0c2",
         "userId": "f0afd930-ba0c-4ec7-bb47-c7a5286f4af5",
-        "title": "kiwi fruit",
-        "price": 44
+        "title": "Nashi Pear-glazed Quail Skewers",
+        "author": "Jason Witting",
+        "collection": "Estonian"
     },
     {
-        "id": "d044c6fc-0506-4428-ac7d-63e684722ab6",
+        "id": "c14af2f0-3f1a-4443-814c-78503bae15f1",
         "userId": "f0afd930-ba0c-4ec7-bb47-c7a5286f4af5",
-        "title": "kiwi fruit",
-        "price": 63
+        "title": "Hummus",
+        "author": "Arturo Klein Sr.",
+        "collection": "Cypriot"
     },
     {
-        "id": "a3c580dd-0b09-4eb3-be5b-4e1400c16a6a",
+        "id": "2d613dc1-62e1-41c3-9a87-2ce9876e922f",
         "userId": "f0afd930-ba0c-4ec7-bb47-c7a5286f4af5",
-        "title": "mangosteen",
-        "price": 49
+        "title": "Pierogi",
+        "author": "Mrs. Gertrude Huel",
+        "collection": "Karnataka"
     },
     {
-        "id": "dc38e955-afa2-419d-b157-e656f51fbebe",
+        "id": "81b5036a-a310-432e-8b23-4169f7578162",
         "userId": "f0afd930-ba0c-4ec7-bb47-c7a5286f4af5",
-        "title": "cavalo",
-        "price": 107
+        "title": "Bruschette With Tomato",
+        "author": "Emanuel Mann",
+        "collection": "Balochi"
     },
     {
-        "id": "2fb1a3e9-7361-4aa4-9a3f-5f39cc37e964",
+        "id": "d3f5fef8-dd27-41cb-bd83-5f62283dd738",
         "userId": "f0afd930-ba0c-4ec7-bb47-c7a5286f4af5",
-        "title": "starfruit",
-        "price": 70
+        "title": "Stinky Tofu",
+        "author": "Candace Simonis PhD",
+        "collection": "Egyptian"
     },
     {
-        "id": "9ea6d5e8-3bf0-4991-95aa-9e700adc8e9e",
+        "id": "44cfb5e2-057e-4a4c-b578-bafd64dcae38",
         "userId": "f0afd930-ba0c-4ec7-bb47-c7a5286f4af5",
-        "title": "avocado",
-        "price": 43
+        "title": "Golden Bangladeshi Stew",
+        "author": "Kim Johnson",
+        "collection": "Ukrainian"
     },
     {
-        "id": "ee906db8-935b-4ada-934a-2f054d9f0a5e",
+        "id": "ba3fcf85-ee23-4d38-9bf1-f81ca8b6d32a",
         "userId": "805f1faa-27d3-43d1-b8f7-343629b131b2",
-        "title": "honeydew melon",
-        "price": 22
+        "title": "Scotch Eggs",
+        "author": "Angelo Langosh",
+        "collection": "Bengali"
     },
     {
-        "id": "a6e4fb61-88e5-49a6-8e0a-820105b54852",
+        "id": "b8e6fda5-bff2-40c7-9f78-94cf2ac5a3c5",
         "userId": "805f1faa-27d3-43d1-b8f7-343629b131b2",
-        "title": "lime",
-        "price": 171
+        "title": "Oranges And Goose Pie",
+        "author": "Jean Larson",
+        "collection": "Sindhi"
     },
     {
-        "id": "4b26fbf2-60db-4ae6-95bd-fe83f9e5c0e5",
+        "id": "f8de91be-7838-40c1-8504-cc37f6ce9aa5",
         "userId": "805f1faa-27d3-43d1-b8f7-343629b131b2",
-        "title": "blackberry",
-        "price": 118
+        "title": "Berry And Elderberry Tart",
+        "author": "Jan Weimann DVM",
+        "collection": "Karnataka"
     },
     {
-        "id": "3bab78c7-8d6c-4154-ba02-47b77bc57bb2",
+        "id": "b8f3b611-e6ba-478f-956c-9412584c40b5",
         "userId": "805f1faa-27d3-43d1-b8f7-343629b131b2",
-        "title": "elderberry",
-        "price": 68
+        "title": "Goose Steak",
+        "author": "Flora Predovic",
+        "collection": "Danish"
     },
     {
-        "id": "37ff4af2-9bcc-48a4-b79b-36e0b5f43d79",
+        "id": "d7559712-8a1a-4570-aebe-58d410d51a42",
         "userId": "805f1faa-27d3-43d1-b8f7-343629b131b2",
-        "title": "tomato",
-        "price": 11
+        "title": "Hummus",
+        "author": "Shelia Langworth",
+        "collection": "Argentine"
     },
     {
-        "id": "2c5d4e60-533e-4f1a-9e18-974b75c54de0",
+        "id": "35435597-599d-4ef4-b8bb-52e13843f2a5",
         "userId": "805f1faa-27d3-43d1-b8f7-343629b131b2",
-        "title": "lychee",
-        "price": 113
+        "title": "Cauliflower Penne",
+        "author": "Shawna Kertzmann",
+        "collection": "Lebanese"
     },
     {
-        "id": "e393d83b-6d86-41e6-bd29-52cd21fd076c",
+        "id": "15fa50c4-5a64-4796-9b39-8b3bc1142165",
         "userId": "805f1faa-27d3-43d1-b8f7-343629b131b2",
-        "title": "papaya",
-        "price": 119
+        "title": "Ginger-crusted Goose",
+        "author": "Lindsey Hettinger II",
+        "collection": "Punjabi"
     },
     {
-        "id": "2a8234e0-3da4-41a2-ac68-d9521eeebae7",
+        "id": "f0fa5200-0fa2-4575-87b9-f7d3334548fb",
         "userId": "805f1faa-27d3-43d1-b8f7-343629b131b2",
-        "title": "lemon",
-        "price": 197
+        "title": "Annatto Seed-rubbed Pork Salad",
+        "author": "Dr. Hope Champlin",
+        "collection": "Sindhi"
     },
     {
-        "id": "239e143b-60c9-46b8-b77f-aa5239b03fe2",
+        "id": "3653b02b-1340-44ba-bc20-c02321b6814c",
         "userId": "805f1faa-27d3-43d1-b8f7-343629b131b2",
-        "title": "olive",
-        "price": 109
+        "title": "Dayana's Special Eggs",
+        "author": "Ms. Andrea Kuphal",
+        "collection": "American"
     },
     {
-        "id": "e8df0e41-3eb4-4d69-b3f9-c5d02806e8fb",
+        "id": "8881ebf5-645a-4253-bade-eb74df1a16a3",
         "userId": "805f1faa-27d3-43d1-b8f7-343629b131b2",
-        "title": "nashi pear",
-        "price": 132
+        "title": "Pork Sausage Roll",
+        "author": "Ms. Patti Hodkiewicz",
+        "collection": "Brazilian"
     },
     {
-        "id": "3b8923db-eff0-4848-8fe5-60135628c3c0",
+        "id": "1e96839e-b491-4408-aac8-9c163606c193",
         "userId": "794dd9cd-4923-456a-bfee-5218ba7ab9dc",
-        "title": "melon",
-        "price": 171
+        "title": "Chicken Fajitas",
+        "author": "Heidi Koss",
+        "collection": "Lebanese"
     },
     {
-        "id": "fd540547-7964-447f-bbfb-25962dfe3590",
+        "id": "1a08b0c8-cd12-4f76-93ab-636f397cb3ac",
         "userId": "794dd9cd-4923-456a-bfee-5218ba7ab9dc",
-        "title": "fingerlime",
-        "price": 111
+        "title": "Tacos",
+        "author": "Dr. Byron Funk",
+        "collection": "Ukrainian"
     },
     {
-        "id": "0e26fea0-e2b6-4dc2-b87b-a86a040f42a5",
+        "id": "238eeda6-e2ad-447d-9b8f-6a217ea9560b",
         "userId": "794dd9cd-4923-456a-bfee-5218ba7ab9dc",
-        "title": "lime",
-        "price": 137
+        "title": "Chicken Wings",
+        "author": "Camille Abernathy",
+        "collection": "Estonian"
     },
     {
-        "id": "5327cdf7-2b66-4776-b3c7-e6a7bdc49064",
+        "id": "8d202179-5927-498f-b6b1-1c10ab245c0c",
         "userId": "794dd9cd-4923-456a-bfee-5218ba7ab9dc",
-        "title": "lime",
-        "price": 95
+        "title": "Vegetable Soup",
+        "author": "Edgar Bernhard",
+        "collection": "Inuit"
     },
     {
-        "id": "a159b24b-2010-4e3a-86b6-9627e7d65f8c",
+        "id": "8c1dfe13-0e5b-4ada-a72f-48a4104ff424",
         "userId": "794dd9cd-4923-456a-bfee-5218ba7ab9dc",
-        "title": "cavalo",
-        "price": 124
+        "title": "Lamb Steak",
+        "author": "Agnes Marks",
+        "collection": "Keralite"
     },
     {
-        "id": "aa6a4913-2e1a-4be5-aee4-f22b4e4dac3b",
+        "id": "19a6f274-8d62-44c7-8814-3335031017a0",
         "userId": "794dd9cd-4923-456a-bfee-5218ba7ab9dc",
-        "title": "custard apple",
-        "price": 135
+        "title": "Pork Steak",
+        "author": "Shelley Ledner MD",
+        "collection": "Persian"
     },
     {
-        "id": "0d5790e9-9253-4bdb-a772-853e1fd9209c",
+        "id": "b96452c7-de45-4f62-bdf2-d4a7bddcb892",
         "userId": "794dd9cd-4923-456a-bfee-5218ba7ab9dc",
-        "title": "pineapple",
-        "price": 11
+        "title": "Quail Steak",
+        "author": "Angelina Wiza",
+        "collection": "English"
     },
     {
-        "id": "7b486a5a-b03b-44e3-962b-3c5c1345820d",
+        "id": "9b451f9b-c09b-4eab-a7d1-5a5fa4c7310d",
         "userId": "794dd9cd-4923-456a-bfee-5218ba7ab9dc",
-        "title": "honeydew melon",
-        "price": 97
+        "title": "Mushroom Risotto",
+        "author": "Sandra Windler",
+        "collection": "Inuit"
     },
     {
-        "id": "8bc1c0c2-9e11-43d3-bbbb-0c90c4623e6e",
+        "id": "7a84b576-d6c7-4511-af8a-dad783795b87",
         "userId": "794dd9cd-4923-456a-bfee-5218ba7ab9dc",
-        "title": "blueberry",
-        "price": 36
+        "title": "Cauliflower Penne",
+        "author": "Clinton Quigley",
+        "collection": "Italian-American"
     },
     {
-        "id": "1fd126f0-3e15-402e-b340-08278b2c1e1f",
+        "id": "aca983d4-1d54-4273-a14c-44946a7284ed",
         "userId": "794dd9cd-4923-456a-bfee-5218ba7ab9dc",
-        "title": "cranberry",
-        "price": 96
+        "title": "Tagine-rubbed Lamb Salad",
+        "author": "Saul Hettinger",
+        "collection": "Portuguese"
     },
     {
-        "id": "ac014418-4941-46ff-890e-204c4ee5528b",
+        "id": "4d77587d-a305-4526-9626-f6606bf34a3b",
         "userId": "5fdbf0b4-949f-4253-bc66-4899c87b165a",
-        "title": "banana",
-        "price": 32
+        "title": "Sultana-glazed Lamb Skewers",
+        "author": "Fannie Heaney",
+        "collection": "Udupi"
     },
     {
-        "id": "047aa7db-aa2d-4d1b-aed1-bc0145df77f8",
+        "id": "ec105a72-f377-48ae-a2a7-d26ea26b1c85",
         "userId": "5fdbf0b4-949f-4253-bc66-4899c87b165a",
-        "title": "fingerlime",
-        "price": 96
+        "title": "Darwin's Special Mustard",
+        "author": "Pamela Ankunding",
+        "collection": "Yamal"
     },
     {
-        "id": "be24dcc1-e943-4ff0-acb3-c5eb2d01e3b3",
+        "id": "62847da0-c159-45a6-8f64-f7a024a68088",
         "userId": "5fdbf0b4-949f-4253-bc66-4899c87b165a",
-        "title": "lemon",
-        "price": 21
+        "title": "Scotch Eggs",
+        "author": "Mr. Roberto Reinger",
+        "collection": "Inuit"
     },
     {
-        "id": "f22c20f7-077c-4483-a873-8bce9fcfae37",
+        "id": "f6e99f87-776c-4985-b18c-fc9c71165a6c",
         "userId": "5fdbf0b4-949f-4253-bc66-4899c87b165a",
-        "title": "guava",
-        "price": 128
+        "title": "Pork Sausage Roll",
+        "author": "Bernice Durgan III",
+        "collection": "South Indian"
     },
     {
-        "id": "de7963d0-a082-44df-8a1b-2bd5bdad8781",
+        "id": "4201d896-4f7c-4122-9bfd-1a85836846eb",
         "userId": "5fdbf0b4-949f-4253-bc66-4899c87b165a",
-        "title": "apricot",
-        "price": 27
+        "title": "Zesty Lamb With Kale",
+        "author": "Freddie Lemke",
+        "collection": "Mennonite"
     },
     {
-        "id": "a41e8b0d-e1e2-4be9-92a4-248845f96830",
+        "id": "f9ef0d57-ddaf-4a92-a372-5c5a7c52efe4",
         "userId": "5fdbf0b4-949f-4253-bc66-4899c87b165a",
-        "title": "starfruit",
-        "price": 136
+        "title": "Chicken Fajitas",
+        "author": "Joyce Turner",
+        "collection": "Romani"
     },
     {
-        "id": "099e7d55-8b82-4d44-9e80-25cc88dea402",
+        "id": "11f349b0-9ee4-482c-aa10-0017c0fdc617",
         "userId": "5fdbf0b4-949f-4253-bc66-4899c87b165a",
-        "title": "prune",
-        "price": 200
+        "title": "Katsu Curry",
+        "author": "Sue Grimes",
+        "collection": "Andhra"
     },
     {
-        "id": "58a99b0f-6afb-4219-b4ce-a6238c92e8ed",
+        "id": "511cce92-91db-4703-be40-3994fd115e7c",
         "userId": "5fdbf0b4-949f-4253-bc66-4899c87b165a",
-        "title": "pomegranate",
-        "price": 198
+        "title": "Vegetable Soup",
+        "author": "Isaac Schneider",
+        "collection": "Ukrainian"
     },
     {
-        "id": "dc34e53b-3c4e-4283-a044-fb36c09c03f7",
+        "id": "434d0501-d7d6-4725-95a1-8c84c7e382b6",
         "userId": "5fdbf0b4-949f-4253-bc66-4899c87b165a",
-        "title": "olive",
-        "price": 40
+        "title": "Seafood Paella",
+        "author": "Jeannie Balistreri",
+        "collection": "Rajasthani"
     },
     {
-        "id": "617487fd-7205-40e1-af87-189dadd4687e",
+        "id": "5631ce7c-68fe-40a3-b171-3805f39ec7fc",
         "userId": "5fdbf0b4-949f-4253-bc66-4899c87b165a",
-        "title": "sultana",
-        "price": 193
+        "title": "Snowpea-infused Turkey Roast",
+        "author": "Gregg Jacobs",
+        "collection": "New Mexican"
     },
     {
-        "id": "a0910fbf-642a-4d51-9d22-54c85cb2b1de",
+        "id": "348b9edd-a4ed-4615-9098-733d639a28e7",
         "userId": "50ebebf3-5bbd-4a9c-84e8-bfb6f09831da",
-        "title": "pear",
-        "price": 142
+        "title": "French Fries With Sausages",
+        "author": "Alexander Ritchie",
+        "collection": "Indonesian"
     },
     {
-        "id": "8aa0e60a-3dc0-4d2f-ad12-bfb51cfec39a",
+        "id": "55c622c1-7ed1-480a-baee-9a09569c22be",
         "userId": "50ebebf3-5bbd-4a9c-84e8-bfb6f09831da",
-        "title": "pear",
-        "price": 126
+        "title": "Rosemary-crusted Salmon",
+        "author": "Jackie Considine",
+        "collection": "Eritrean"
     },
     {
-        "id": "ddafc121-1476-436e-bcfa-780d274319c8",
+        "id": "2fe4968c-98de-4f91-b33f-b717cbc2b774",
         "userId": "50ebebf3-5bbd-4a9c-84e8-bfb6f09831da",
-        "title": "nectarine",
-        "price": 50
+        "title": "Italian Honey Soup",
+        "author": "Mr. Alvin Ebert",
+        "collection": "Filipino"
     },
     {
-        "id": "23a73c3e-c6b7-40c9-ac10-0eb345fd001d",
+        "id": "f885e7c5-3391-46d2-b7cc-73af81a213b9",
         "userId": "50ebebf3-5bbd-4a9c-84e8-bfb6f09831da",
-        "title": "aubergine",
-        "price": 64
+        "title": "Massaman Curry",
+        "author": "Valerie Waelchi",
+        "collection": "Circassian"
     },
     {
-        "id": "e78b51b9-09d0-4fef-a8a9-cd35697adca9",
+        "id": "fbb71f52-e46d-40df-afda-f58dcb7a65e0",
         "userId": "50ebebf3-5bbd-4a9c-84e8-bfb6f09831da",
-        "title": "dragonfruit",
-        "price": 149
+        "title": "Emu Steak",
+        "author": "Sheri Lowe",
+        "collection": "Inuit"
     },
     {
-        "id": "1b503607-b65c-4fa2-b287-1104ded94faf",
+        "id": "041d8a5c-1415-4891-a19f-6ed15eec42b7",
         "userId": "50ebebf3-5bbd-4a9c-84e8-bfb6f09831da",
-        "title": "dried apricot",
-        "price": 17
+        "title": "Mushroom Risotto",
+        "author": "Vivian MacGyver",
+        "collection": "Rajasthani"
     },
     {
-        "id": "5c9ebefe-7e96-4dcb-827b-85e51201c330",
+        "id": "a0ca8f7c-1bb6-42f1-9730-afbf04dabeb8",
         "userId": "50ebebf3-5bbd-4a9c-84e8-bfb6f09831da",
-        "title": "snowpea",
-        "price": 33
+        "title": "Strawberry And Mulberry Tart",
+        "author": "Dr. Dora Haag",
+        "collection": "Peranakan"
     },
     {
-        "id": "5aeb85a9-39bb-4573-a050-c27b0c154e1d",
+        "id": "31b1b845-e598-43d8-875f-c525ff697154",
         "userId": "50ebebf3-5bbd-4a9c-84e8-bfb6f09831da",
-        "title": "blueberry",
-        "price": 159
+        "title": "Caprese Salad",
+        "author": "Kara Cormier",
+        "collection": "Maharashtrian"
     },
     {
-        "id": "82006f7f-b3e2-46a8-a8f7-ebe3648d051a",
+        "id": "4577fdc6-67fd-493e-a478-5ceed4dff77e",
         "userId": "50ebebf3-5bbd-4a9c-84e8-bfb6f09831da",
-        "title": "lychee",
-        "price": 153
+        "title": "Latvian Nashi Pear Soup",
+        "author": "Caleb Batz-Cremin",
+        "collection": "Azerbaijani"
     },
     {
-        "id": "90a1cbf4-1b43-4816-bcce-03b778de0254",
+        "id": "25634fa7-b087-4e05-a22d-19530a1e9c0e",
         "userId": "50ebebf3-5bbd-4a9c-84e8-bfb6f09831da",
-        "title": "cavalo",
-        "price": 91
+        "title": "Longan Pie",
+        "author": "Randy Johnson",
+        "collection": "Hyderabad"
     },
     {
-        "id": "5ac7b01b-eb7d-4365-8c3e-f31b1bca779a",
+        "id": "d60e2201-8cbb-4c79-8b1e-a04bee5b9aa3",
         "userId": "82ca93d7-39bf-498d-af7f-143e1448e46b",
-        "title": "jarrahdale pumpkin",
-        "price": 77
+        "title": "Eggplant Salad",
+        "author": "Rene Anderson",
+        "collection": "Malay"
     },
     {
-        "id": "2d3db0e3-5a4f-4229-a3cf-0ccd0df25ee2",
+        "id": "42306516-3380-45f7-802f-718c3ca260f8",
         "userId": "82ca93d7-39bf-498d-af7f-143e1448e46b",
-        "title": "grapefruit",
-        "price": 20
+        "title": "Balti Masala-rubbed Emu Salad",
+        "author": "Sherri Upton",
+        "collection": "Serbian"
     },
     {
-        "id": "9459b2da-8898-4d9c-a2cb-5a2267a7b79c",
+        "id": "f703b15d-4c2e-419f-bc60-0ab32246f373",
         "userId": "82ca93d7-39bf-498d-af7f-143e1448e46b",
-        "title": "rockmelon",
-        "price": 148
+        "title": "Feijoa-infused Pork Roast",
+        "author": "Terrence Mante-McLaughlin",
+        "collection": "Texan"
     },
     {
-        "id": "55750d63-9d29-4eef-a756-51075cae2c12",
+        "id": "b031fd25-6334-476f-b328-9178b980004a",
         "userId": "82ca93d7-39bf-498d-af7f-143e1448e46b",
-        "title": "fig",
-        "price": 35
+        "title": "Barbecue Ribs",
+        "author": "Betsy Kunde",
+        "collection": "Slovenian"
     },
     {
-        "id": "43c798e4-9dca-4a36-a7eb-819413dafb70",
+        "id": "a6e8606f-06cb-410d-8bf3-7398647d3e9c",
         "userId": "82ca93d7-39bf-498d-af7f-143e1448e46b",
-        "title": "starfruit",
-        "price": 200
+        "title": "Peking Duck",
+        "author": "Mr. Chris Morar",
+        "collection": "Georgian"
     },
     {
-        "id": "32871ad1-b70b-42cf-bb26-303e78009220",
+        "id": "cbd19cd0-ee82-48e2-b3ec-d2ba57634135",
         "userId": "82ca93d7-39bf-498d-af7f-143e1448e46b",
-        "title": "cantaloupe",
-        "price": 198
+        "title": "Fresh Rabbit With Bok Choy",
+        "author": "Morris Rosenbaum",
+        "collection": "Ethiopian"
     },
     {
-        "id": "babb6208-4cd4-45ae-a951-75083370c02e",
+        "id": "f07c5bfc-47aa-4e31-ac33-754ab12a9249",
         "userId": "82ca93d7-39bf-498d-af7f-143e1448e46b",
-        "title": "jarrahdale pumpkin",
-        "price": 101
+        "title": "Methi-crusted Ostrich",
+        "author": "Nina Klein",
+        "collection": "Estonian"
     },
     {
-        "id": "ba3b4ca6-352b-47cb-9534-10087a8aeee3",
+        "id": "5d81e928-618e-4b98-8961-5a12d886b876",
         "userId": "82ca93d7-39bf-498d-af7f-143e1448e46b",
-        "title": "custard apple",
-        "price": 62
+        "title": "Loquat And Goji Berry Tart",
+        "author": "Erik Haley",
+        "collection": "Parsi"
     },
     {
-        "id": "5f7b04c2-b128-400a-803b-90950e6ce745",
+        "id": "5886f3e1-60f8-4201-94a7-c3977e8e397b",
         "userId": "82ca93d7-39bf-498d-af7f-143e1448e46b",
-        "title": "blackberry",
-        "price": 196
+        "title": "Juicy Goose With Asian Greens",
+        "author": "Dr. Alton Reilly",
+        "collection": "Parsi"
     },
     {
-        "id": "9d04483c-b42a-411e-8082-e9d7b341bcbe",
+        "id": "7568aa91-c16f-40cd-a860-e2e1ba406e3d",
         "userId": "82ca93d7-39bf-498d-af7f-143e1448e46b",
-        "title": "corella pear",
-        "price": 167
+        "title": "Broccoli Salad",
+        "author": "Ms. Sherri Larson",
+        "collection": "Zambian"
     },
     {
-        "id": "687a7950-2e9c-4255-b83e-6c2c0690ae1a",
+        "id": "2b8fb011-3f20-4df1-a56e-3c15175a0988",
         "userId": "639abe40-a371-4d16-b101-c15964844f3d",
-        "title": "lemon",
-        "price": 59
+        "title": "French Toast",
+        "author": "Abel Batz",
+        "collection": "Latvian"
     },
     {
-        "id": "271c3ef2-8264-4c1d-9602-871957cb3eca",
+        "id": "0183d9c9-4112-4752-929a-06d149b59bb6",
         "userId": "639abe40-a371-4d16-b101-c15964844f3d",
-        "title": "mangosteen",
-        "price": 133
+        "title": "Chicken Fajitas",
+        "author": "Allan Nader",
+        "collection": "Malaysian Chinese"
     },
     {
-        "id": "5b7a6ddd-401e-45da-b419-9d3cb913f889",
+        "id": "e955c269-d852-4267-a47b-9dcc2a0c65ee",
         "userId": "639abe40-a371-4d16-b101-c15964844f3d",
-        "title": "apple",
-        "price": 119
+        "title": "Cheeseburger",
+        "author": "Christy Kling",
+        "collection": "Jamaican"
     },
     {
-        "id": "d3e8828c-db9e-441a-bf02-c8f40186631d",
+        "id": "ba10f0ad-6554-48d5-83c3-def37985d0ef",
         "userId": "639abe40-a371-4d16-b101-c15964844f3d",
-        "title": "cavalo",
-        "price": 135
+        "title": "Honeydew Melon Pie",
+        "author": "Josh Waters",
+        "collection": "Sri Lankan"
     },
     {
-        "id": "82d1fa8e-cb66-4ace-9767-b2dab823c4ae",
+        "id": "3dabc64f-745f-4dbd-8dc6-214d3cb814f9",
         "userId": "639abe40-a371-4d16-b101-c15964844f3d",
-        "title": "kiwiberry",
-        "price": 108
+        "title": "Bitter Thai Stew",
+        "author": "Ryan Bernhard",
+        "collection": "Awadhi"
     },
     {
-        "id": "cc50f3ea-b2ad-4230-94e5-8714eef95cef",
+        "id": "8298740a-0fae-4fc0-ba2d-e44c35ddd063",
         "userId": "639abe40-a371-4d16-b101-c15964844f3d",
-        "title": "papaya",
-        "price": 80
+        "title": "French Fries With Sausages",
+        "author": "Dr. Elmer Dickinson",
+        "collection": "Indian Singaporean"
     },
     {
-        "id": "5d267108-bba8-40e0-b1d1-0eb36fa910f7",
+        "id": "6d2b70ec-a71a-4f06-a80c-e205e61581fa",
         "userId": "639abe40-a371-4d16-b101-c15964844f3d",
-        "title": "mango",
-        "price": 116
+        "title": "Papaya-infused Turkey Roast",
+        "author": "Angelica Reichel",
+        "collection": "Ainu"
     },
     {
-        "id": "51045f85-1151-447a-bec0-44777dd267b2",
+        "id": "25d2bf92-ac17-4d72-b0db-e1812e866756",
         "userId": "639abe40-a371-4d16-b101-c15964844f3d",
-        "title": "jarrahdale pumpkin",
-        "price": 133
+        "title": "Linguine With Clams",
+        "author": "Lorraine Smith",
+        "collection": "Goan"
     },
     {
-        "id": "a0bedcab-8d52-4c20-8402-bf47794f7661",
+        "id": "9a19d9ef-1351-44b5-878c-1a9216388f7f",
         "userId": "639abe40-a371-4d16-b101-c15964844f3d",
-        "title": "custard apple",
-        "price": 30
+        "title": "Hummus",
+        "author": "Alicia Tremblay",
+        "collection": "Québécois"
     },
     {
-        "id": "9f2777b9-fb5d-4c36-8c4c-b2634b184be2",
+        "id": "37e5184f-ee93-4d92-91ea-07cea0e4607d",
         "userId": "639abe40-a371-4d16-b101-c15964844f3d",
-        "title": "elderberry",
-        "price": 194
+        "title": "Nashi Pear-glazed Emu Skewers",
+        "author": "Larry Moen",
+        "collection": "Laotian"
     },
     {
-        "id": "dbb4333c-eb96-4beb-af8b-175636bf0138",
+        "id": "9d2db64f-d8d7-4474-b280-7b6c889843b6",
         "userId": "e79975a2-5651-4293-8fad-33e7b5993570",
-        "title": "dried apricot",
-        "price": 79
+        "title": "Olive Pie",
+        "author": "Ethel Torp",
+        "collection": "Indian Chinese"
     },
     {
-        "id": "ea37007b-24d2-480d-8001-62a0e6910d8f",
+        "id": "24ff60c7-a17f-4004-9420-51e51a24de00",
         "userId": "e79975a2-5651-4293-8fad-33e7b5993570",
-        "title": "juniper berry",
-        "price": 153
+        "title": "Alana's Special Milk Chocolate",
+        "author": "Dr. Donnie Deckow",
+        "collection": "Indian"
     },
     {
-        "id": "e02219a9-c42b-4707-930a-191bead9c1d5",
+        "id": "86078f11-ed2e-4121-8d09-4fa02badc0ed",
         "userId": "e79975a2-5651-4293-8fad-33e7b5993570",
-        "title": "currant",
-        "price": 68
+        "title": "Elderberry-glazed Pork Skewers",
+        "author": "Winston Parisian",
+        "collection": "Czech"
     },
     {
-        "id": "16944267-d84a-41b4-97d9-2b1f9d991dd5",
+        "id": "d6325319-ceee-41c6-9daf-35bafc6936c3",
         "userId": "e79975a2-5651-4293-8fad-33e7b5993570",
-        "title": "peach",
-        "price": 127
+        "title": "Ebiten Maki",
+        "author": "Don O'Kon",
+        "collection": "French"
     },
     {
-        "id": "7868a00a-77ba-4ade-be00-9340d07f0961",
+        "id": "514a960c-5e2b-4cf2-916c-2c29922b818b",
         "userId": "e79975a2-5651-4293-8fad-33e7b5993570",
-        "title": "watermelon",
-        "price": 164
+        "title": "Ebiten Maki",
+        "author": "Gilberto Bergnaum",
+        "collection": "Tatar"
     },
     {
-        "id": "657585a5-0198-4ca6-82b4-18084dd02dfa",
+        "id": "e32b7b45-e599-4153-8569-843b2e6e453d",
         "userId": "e79975a2-5651-4293-8fad-33e7b5993570",
-        "title": "blood orange",
-        "price": 69
+        "title": "Risotto With Seafood",
+        "author": "Nathaniel Hudson",
+        "collection": "Gujarati"
     },
     {
-        "id": "3106f618-dae9-462c-bfd1-afd280cabcfe",
+        "id": "c1cd0aef-6d4f-4f8f-8a0e-f783a29f520a",
         "userId": "e79975a2-5651-4293-8fad-33e7b5993570",
-        "title": "dried apricot",
-        "price": 29
+        "title": "Sultana And Butternut Pumpkin Tart",
+        "author": "Priscilla Dibbert",
+        "collection": "Estonian"
     },
     {
-        "id": "8ec942df-9b1d-48c6-9e3c-5e2bbbc8536a",
+        "id": "9de1e869-59f2-4763-a422-6de5f2c86c57",
         "userId": "e79975a2-5651-4293-8fad-33e7b5993570",
-        "title": "nashi pear",
-        "price": 13
+        "title": "Kebab",
+        "author": "Alton Mayer",
+        "collection": "Danish"
     },
     {
-        "id": "7bfecd55-04b8-4219-bcfb-37222c594123",
+        "id": "40ce464d-0442-4518-8001-520342470ea9",
         "userId": "e79975a2-5651-4293-8fad-33e7b5993570",
-        "title": "strawberry",
-        "price": 44
+        "title": "Cumin-infused Ostrich",
+        "author": "Mrs. Ashley Grant",
+        "collection": "Malay"
     },
     {
-        "id": "607ab26a-bb46-427f-9c70-e3b3db5ef516",
+        "id": "e4469386-89ef-439d-bf81-156aac1def67",
         "userId": "e79975a2-5651-4293-8fad-33e7b5993570",
-        "title": "longan",
-        "price": 20
+        "title": "Ansel's Special Green Tea",
+        "author": "John Hessel",
+        "collection": "Bangladeshi"
     },
     {
-        "id": "b2a27b24-8a17-45fc-8b3e-6d01a8e9827f",
+        "id": "dae5da02-9b04-4270-b927-53629bfcf49a",
         "userId": "8bc99cb9-aa92-4078-a49b-81a91328e798",
-        "title": "grape",
-        "price": 67
+        "title": "Pork Sausage Roll",
+        "author": "Austin Conroy",
+        "collection": "Kurdish"
     },
     {
-        "id": "86b5c61a-df83-44ed-87eb-3a87f33a6534",
+        "id": "78f393d2-0159-40d5-be46-eff3fa94d215",
         "userId": "8bc99cb9-aa92-4078-a49b-81a91328e798",
-        "title": "apple",
-        "price": 48
+        "title": "Banana-infused Rabbit Roast",
+        "author": "Mabel Rowe",
+        "collection": "Yamal"
     },
     {
-        "id": "ac6165d6-4fad-4572-a9fc-532760272752",
+        "id": "009eaebe-9447-48bb-8e6f-9650e379eebf",
         "userId": "8bc99cb9-aa92-4078-a49b-81a91328e798",
-        "title": "cranberry",
-        "price": 18
+        "title": "Scotch Eggs",
+        "author": "Rosalie Runolfsson",
+        "collection": "Ainu"
     },
     {
-        "id": "9442ae35-8f18-4275-9a1d-abcbef77691b",
+        "id": "6b6d61d1-ddac-45f6-9a69-dea42d0893ee",
         "userId": "8bc99cb9-aa92-4078-a49b-81a91328e798",
-        "title": "juniper berry",
-        "price": 169
+        "title": "Hyderabad Enoki Mushrooms Soup",
+        "author": "Ms. Wilma Hand-Pollich",
+        "collection": "Parsi"
     },
     {
-        "id": "cc79e47e-25d2-4a44-aec5-37dff17fa0a4",
+        "id": "4d1e3a63-e089-42f8-bb7f-8feebc569aa7",
         "userId": "8bc99cb9-aa92-4078-a49b-81a91328e798",
-        "title": "grapefruit",
-        "price": 120
+        "title": "Avocado And Apple Tart",
+        "author": "Yvonne Daniel PhD",
+        "collection": "Slovenian"
     },
     {
-        "id": "d6eeec12-2946-42e2-bd7b-f2923d3e19eb",
+        "id": "c851a7c9-de16-4da6-aa42-94754f3f167d",
         "userId": "8bc99cb9-aa92-4078-a49b-81a91328e798",
-        "title": "melon",
-        "price": 121
+        "title": "Tacos",
+        "author": "Charlie Considine",
+        "collection": "Jewish - Israeli"
     },
     {
-        "id": "f5cb8be4-3bf3-4379-8c98-80335833e622",
+        "id": "9e81f6c1-78be-46e3-a36e-57f2f6aa66bc",
         "userId": "8bc99cb9-aa92-4078-a49b-81a91328e798",
-        "title": "mangosteen",
-        "price": 180
+        "title": "Melon-glazed Beef Skewers",
+        "author": "Cary Kovacek",
+        "collection": "German"
     },
     {
-        "id": "e8f7ca01-9cb0-4972-bb47-8e105480e7ef",
+        "id": "0c20479c-876a-4cb3-8391-2d0a98e6b228",
         "userId": "8bc99cb9-aa92-4078-a49b-81a91328e798",
-        "title": "apple",
-        "price": 158
+        "title": "Pork With Avocado Sauce",
+        "author": "Dr. Sidney Aufderhar",
+        "collection": "Mennonite"
     },
     {
-        "id": "1e0bccc1-aabb-415b-bafe-85c679750e4a",
+        "id": "d5566ccb-b54e-443b-a0c3-6db79fe7c1b6",
         "userId": "8bc99cb9-aa92-4078-a49b-81a91328e798",
-        "title": "honeydew melon",
-        "price": 24
+        "title": "Tuna Sashimi",
+        "author": "Bernadette Donnelly",
+        "collection": "Italian-American"
     },
     {
-        "id": "93e9246f-c83f-4913-9d14-bcd508876f39",
+        "id": "8c9d9b94-1d1a-41a5-8e8f-e72a38afdf17",
         "userId": "8bc99cb9-aa92-4078-a49b-81a91328e798",
-        "title": "tangelo",
-        "price": 18
+        "title": "Quail With Sultana Sauce",
+        "author": "Larry Emmerich",
+        "collection": "Tamil"
     },
     {
-        "id": "e6adc9fa-ea40-4135-95f8-15552a58397b",
+        "id": "cdc1615f-5a2f-4885-91d4-929fdf0aefa7",
         "userId": "eec0b708-3e3d-4275-9ea9-50dcb9ac1900",
-        "title": "corella pear",
-        "price": 33
+        "title": "Fish And Chips",
+        "author": "Ms. Antoinette Weissnat",
+        "collection": "Jamaican"
     },
     {
-        "id": "9cbef215-3a25-450a-b118-ac9ffea31fb3",
+        "id": "3bd513e8-c917-42f2-80cd-9894ebad7780",
         "userId": "eec0b708-3e3d-4275-9ea9-50dcb9ac1900",
-        "title": "jarrahdale pumpkin",
-        "price": 178
+        "title": "Cornichons Salad",
+        "author": "Clay Nikolaus Jr.",
+        "collection": "Chinese"
     },
     {
-        "id": "cb0f47df-a9fb-423d-a1ce-9d2139832573",
+        "id": "40a4e069-0264-47b6-87fa-d05b91c8847f",
         "userId": "eec0b708-3e3d-4275-9ea9-50dcb9ac1900",
-        "title": "bush tomato",
-        "price": 153
+        "title": "Hummus",
+        "author": "Josephine Medhurst",
+        "collection": "Cantonese"
     },
     {
-        "id": "b4db5638-f49e-4361-a885-dcf30b5c5dfd",
+        "id": "8e145ce1-91d2-49cb-965c-32a9e0f0dc5d",
         "userId": "eec0b708-3e3d-4275-9ea9-50dcb9ac1900",
-        "title": "lime",
-        "price": 17
+        "title": "Prune And Feijoa Tart",
+        "author": "Russell Kuphal",
+        "collection": "Egyptian"
     },
     {
-        "id": "0eb7c150-f2d1-46b5-885a-979f172e482f",
+        "id": "2cbd3dfc-92ba-4314-9f79-a0b3e6816ffd",
         "userId": "eec0b708-3e3d-4275-9ea9-50dcb9ac1900",
-        "title": "custard apple",
-        "price": 123
+        "title": "Brenden's Special Black Eyed Beans",
+        "author": "Agnes Kuhlman",
+        "collection": "Mennonite"
     },
     {
-        "id": "5833210a-e950-41cb-921a-77f3cea5dc26",
+        "id": "975076b6-f414-44f2-9661-41916410d1de",
         "userId": "eec0b708-3e3d-4275-9ea9-50dcb9ac1900",
-        "title": "strawberry",
-        "price": 122
+        "title": "Teriyaki Chicken Donburi",
+        "author": "Tasha Blanda III",
+        "collection": "Chinese"
     },
     {
-        "id": "2ec15cc1-a3b9-44ac-981d-bffa4b5d9afc",
+        "id": "6b52b8ba-57d1-4112-a3b8-767c0944134e",
         "userId": "eec0b708-3e3d-4275-9ea9-50dcb9ac1900",
-        "title": "grape",
-        "price": 81
+        "title": "Cornmeal-infused Beef",
+        "author": "Mrs. Hope Hyatt",
+        "collection": "Ukrainian"
     },
     {
-        "id": "adbc7db5-48df-407c-9762-f0f3f390d60f",
+        "id": "17ad7a0f-ef4c-4a77-be68-aeea9564378b",
         "userId": "eec0b708-3e3d-4275-9ea9-50dcb9ac1900",
-        "title": "aubergine",
-        "price": 42
+        "title": "Pasta Carbonara",
+        "author": "Delbert Deckow",
+        "collection": "Yamal"
     },
     {
-        "id": "62ef5ffc-7d7c-4926-a977-5b50fbf205e0",
+        "id": "f495d4e8-a9f5-41f0-9e8b-9555891e70d0",
         "userId": "eec0b708-3e3d-4275-9ea9-50dcb9ac1900",
-        "title": "feijoa",
-        "price": 177
+        "title": "Chilli Pepper-rubbed Salmon Salad",
+        "author": "Alexis Dooley",
+        "collection": "Albanian"
     },
     {
-        "id": "7e4f2fb4-d819-41dc-b66b-9c1172262230",
+        "id": "0ddf62a4-e34a-48f2-becf-3de0e9ff3a0b",
         "userId": "eec0b708-3e3d-4275-9ea9-50dcb9ac1900",
-        "title": "orange",
-        "price": 92
+        "title": "Gene's Special Star Fruit",
+        "author": "Dr. Clarence Bartoletti",
+        "collection": "Native American"
     },
     {
-        "id": "c79e8025-1369-45e1-b8db-3d7ac153f95e",
+        "id": "4df3595f-09a6-4ef4-956a-1eea9ce7bb99",
         "userId": "16159928-6bc4-4914-a575-63a254f240c1",
-        "title": "aubergine",
-        "price": 14
+        "title": "Linguine With Clams",
+        "author": "Gloria Hamill",
+        "collection": "Yamal"
     },
     {
-        "id": "b2c718c7-6027-4c57-9251-fc23691e44e6",
+        "id": "10fb47f3-2727-4c6f-9bd4-f19b49c0cbcd",
         "userId": "16159928-6bc4-4914-a575-63a254f240c1",
-        "title": "starfruit",
-        "price": 131
+        "title": "Iliana's Special Celery",
+        "author": "Mr. Earl Kreiger",
+        "collection": "Tatar"
     },
     {
-        "id": "bb52c88c-ac3a-453c-819c-e935fed7ed47",
+        "id": "cd9e20ab-0a0c-442e-8a87-0768c90474a9",
         "userId": "16159928-6bc4-4914-a575-63a254f240c1",
-        "title": "dried apricot",
-        "price": 159
+        "title": "Papaya Pie",
+        "author": "Damon Gusikowski",
+        "collection": "Bangladeshi"
     },
     {
-        "id": "a22d0d03-7613-49a8-8a40-d5a7cc3831a9",
+        "id": "db08adfc-c1aa-4d1e-82a3-6aaa9dcb5bbe",
         "userId": "16159928-6bc4-4914-a575-63a254f240c1",
-        "title": "pineapple",
-        "price": 40
+        "title": "Som Tam",
+        "author": "Heather Haag",
+        "collection": "Mordovian"
     },
     {
-        "id": "7b1671d7-ebaf-4358-8c68-2c42a2b75003",
+        "id": "c9314622-674f-4ea9-a1e1-f9ed9f0625c5",
         "userId": "16159928-6bc4-4914-a575-63a254f240c1",
-        "title": "honeydew melon",
-        "price": 157
+        "title": "Pasta With Tomato And Basil",
+        "author": "Dr. Elizabeth O'Conner",
+        "collection": "French"
     },
     {
-        "id": "e3bbbc3d-d9ad-4b9a-a0f2-b7197f788c4f",
+        "id": "f8071aac-eea0-404e-9c87-2e6bef154a95",
         "userId": "16159928-6bc4-4914-a575-63a254f240c1",
-        "title": "sprout",
-        "price": 196
+        "title": "Som Tam",
+        "author": "Allan Harvey",
+        "collection": "South Indian"
     },
     {
-        "id": "9de3728a-899f-4861-b1fb-851cbf76d862",
+        "id": "6293c985-972b-41e4-bf3c-30b8b011ca78",
         "userId": "16159928-6bc4-4914-a575-63a254f240c1",
-        "title": "tangelo",
-        "price": 46
+        "title": "Souvlaki",
+        "author": "Charlotte Zulauf-Kessler",
+        "collection": "Irish"
     },
     {
-        "id": "37a3e6b2-bc15-4653-9dbe-b406a2a4b1fd",
+        "id": "dc403dc3-1584-45f4-b5f4-364ab5109043",
         "userId": "16159928-6bc4-4914-a575-63a254f240c1",
-        "title": "custard apple",
-        "price": 124
+        "title": "Fluffy Salmon With Radish",
+        "author": "Ora Lynch",
+        "collection": "Peranakan"
     },
     {
-        "id": "9d0f491c-2ed1-4eef-a4b0-159874e36d83",
+        "id": "b5aac052-e5cc-4f6a-b5d4-e1167a24a379",
         "userId": "16159928-6bc4-4914-a575-63a254f240c1",
-        "title": "grapefruit",
-        "price": 18
+        "title": "Katsu Curry",
+        "author": "Robyn Hand",
+        "collection": "Mughal"
     },
     {
-        "id": "fa95fccc-4d3b-484c-aa11-a8a89758b3e0",
+        "id": "ff251c9f-be8e-4b65-a134-31c69e6ff41a",
         "userId": "16159928-6bc4-4914-a575-63a254f240c1",
-        "title": "incaberry",
-        "price": 113
+        "title": "Pasta And Beans",
+        "author": "Bradley Littel",
+        "collection": "Bangladeshi"
     },
     {
-        "id": "3b09ea3a-4ca6-4e48-8aa3-f9740f431383",
+        "id": "1f72e0aa-c2ce-49a2-9e75-4b931def784f",
         "userId": "8098cc55-b9ca-4642-b5d4-f0dd0cf0c21a",
-        "title": "blueberry",
-        "price": 40
+        "title": "Bitter Goan Stew",
+        "author": "Kristi Gleichner",
+        "collection": "Spanish"
     },
     {
-        "id": "71d0e2ef-1d66-48d5-93ca-c3cb13b959b5",
+        "id": "b820e3a9-f5f4-4911-ad31-f3dc3a40959d",
         "userId": "8098cc55-b9ca-4642-b5d4-f0dd0cf0c21a",
-        "title": "apple",
-        "price": 92
+        "title": "Venison With Banana Sauce",
+        "author": "Jerry Blick-Mertz",
+        "collection": "Karnataka"
     },
     {
-        "id": "2d588309-8f93-412e-9c73-efc7fa25c41c",
+        "id": "859e1168-4286-4bdb-9c0a-acc72c526263",
         "userId": "8098cc55-b9ca-4642-b5d4-f0dd0cf0c21a",
-        "title": "sultana",
-        "price": 172
+        "title": "Squash Salad",
+        "author": "Frances Gusikowski",
+        "collection": "Punjabi"
     },
     {
-        "id": "eae565d9-a15f-4436-aadc-8d292e79f2c5",
+        "id": "b3998933-931f-41d4-9aaf-b38ab55bd515",
         "userId": "8098cc55-b9ca-4642-b5d4-f0dd0cf0c21a",
-        "title": "pineapple",
-        "price": 181
+        "title": "Pork Belly Buns",
+        "author": "Mr. Wm Casper",
+        "collection": "Sami"
     },
     {
-        "id": "16e075a0-bc91-4bcb-9f7e-e5d1623431de",
+        "id": "22be8284-7a5b-4bac-b0ee-3e28bc1a49c0",
         "userId": "8098cc55-b9ca-4642-b5d4-f0dd0cf0c21a",
-        "title": "cantaloupe",
-        "price": 142
+        "title": "Melon And Grapefruit Tart",
+        "author": "Tracy Jast",
+        "collection": "Québécois"
     },
     {
-        "id": "a30ce5c1-2cea-4287-b29e-c71844e95490",
+        "id": "fc47c701-efe7-406c-b3ae-ce4794c27f85",
         "userId": "8098cc55-b9ca-4642-b5d4-f0dd0cf0c21a",
-        "title": "plum",
-        "price": 66
+        "title": "Vegetable Soup",
+        "author": "Mindy Dietrich IV",
+        "collection": "Malaysian Indian"
     },
     {
-        "id": "8afdbc38-ea28-4188-a7fa-6ada14cb142c",
+        "id": "3f3e9b8f-6f73-4b43-9217-4a443e55a7a0",
         "userId": "8098cc55-b9ca-4642-b5d4-f0dd0cf0c21a",
-        "title": "snowpea",
-        "price": 13
+        "title": "Salmon Nigiri",
+        "author": "Sergio Glover",
+        "collection": "Portuguese"
     },
     {
-        "id": "4a8c60a7-a8a9-45b4-b4f7-145f75f7e48d",
+        "id": "cc556e3a-bd10-4225-9bd9-24bce55e56cd",
         "userId": "8098cc55-b9ca-4642-b5d4-f0dd0cf0c21a",
-        "title": "blood orange",
-        "price": 57
+        "title": "Tiramisù",
+        "author": "Rickey Renner",
+        "collection": "Cantonese"
     },
     {
-        "id": "2232cb74-8b21-4593-b3cf-54d27166d65b",
+        "id": "116b2f79-b3ad-454d-8c31-cc2dd1eefcd1",
         "userId": "8098cc55-b9ca-4642-b5d4-f0dd0cf0c21a",
-        "title": "blueberry",
-        "price": 134
+        "title": "Philadelphia Maki",
+        "author": "Dianna Willms III",
+        "collection": "Kurdish"
     },
     {
-        "id": "9b63fe92-306b-4332-a9ee-1f4f3bd99e78",
+        "id": "f7d05e0e-7797-4716-a4eb-ac035ae0ac47",
         "userId": "8098cc55-b9ca-4642-b5d4-f0dd0cf0c21a",
-        "title": "mandarin",
-        "price": 86
+        "title": "Mushroom Risotto",
+        "author": "Marsha Heidenreich",
+        "collection": "Azerbaijani"
     },
     {
-        "id": "d4f0a5c3-8918-468a-aaf3-268a4f9658f5",
+        "id": "6bb05284-aecc-4bf8-b0fb-0e2130845d24",
         "userId": "025de058-4b2e-4d7d-ace0-cc811318dc5d",
-        "title": "guava",
-        "price": 164
+        "title": "Hummus",
+        "author": "Lawrence Homenick",
+        "collection": "Yamal"
     },
     {
-        "id": "4fceac4b-1640-47c1-9656-124ed0630f21",
+        "id": "f4097192-b9a0-4fcd-9544-50a2d55d73bf",
         "userId": "025de058-4b2e-4d7d-ace0-cc811318dc5d",
-        "title": "dragonfruit",
-        "price": 151
+        "title": "Pork Belly Buns",
+        "author": "Christie VonRueden V",
+        "collection": "Parsi"
     },
     {
-        "id": "02654e02-8867-4e5b-9c7d-9cede7f25ca6",
+        "id": "6923c680-303b-41a6-b2bd-0c137deebf72",
         "userId": "025de058-4b2e-4d7d-ace0-cc811318dc5d",
-        "title": "kiwi fruit",
-        "price": 64
+        "title": "Caesar Salad",
+        "author": "Ricky Mayer",
+        "collection": "Bulgarian"
     },
     {
-        "id": "b0b3a5ab-555c-4a9c-8306-ad1b96a5b8b2",
+        "id": "f8ccdae1-9494-42da-924d-cee5a0f70f06",
         "userId": "025de058-4b2e-4d7d-ace0-cc811318dc5d",
-        "title": "strawberry",
-        "price": 40
+        "title": "Liquorice Root-crusted Turkey",
+        "author": "Fernando Kreiger",
+        "collection": "Lithuanian"
     },
     {
-        "id": "9d56d160-b3c5-425d-9052-a9b569277370",
+        "id": "97243bf6-96e5-4572-990f-9e3231bdf997",
         "userId": "025de058-4b2e-4d7d-ace0-cc811318dc5d",
-        "title": "dried apricot",
-        "price": 36
+        "title": "Broccolini Salad",
+        "author": "Candice Langosh",
+        "collection": "Slovenian"
     },
     {
-        "id": "f4309fac-02fc-4402-ba20-6aee0874aea5",
+        "id": "e2d4613e-c55a-40f1-85bf-cc73b7c35909",
         "userId": "025de058-4b2e-4d7d-ace0-cc811318dc5d",
-        "title": "fingerlime",
-        "price": 172
+        "title": "Massaman Curry",
+        "author": "Sue Strosin",
+        "collection": "Albanian"
     },
     {
-        "id": "8f053b31-5801-4493-9d0d-c17892801eb0",
+        "id": "81b0a8e3-cd98-4f40-8ecc-181a0781ee23",
         "userId": "025de058-4b2e-4d7d-ace0-cc811318dc5d",
-        "title": "goji berry",
-        "price": 15
+        "title": "Koshihikari Rice And Beef Pie",
+        "author": "Kent Weimann",
+        "collection": "Taiwanese"
     },
     {
-        "id": "0d3399b7-32d3-4a7d-a139-5915e3273530",
+        "id": "8391f306-4c33-44be-936d-411164bb5abd",
         "userId": "025de058-4b2e-4d7d-ace0-cc811318dc5d",
-        "title": "blood orange",
-        "price": 48
+        "title": "Nasturtium-infused Crocodile",
+        "author": "Patti Wunsch",
+        "collection": "Turkish"
     },
     {
-        "id": "ca86ba70-3fff-4112-9406-53c9bb8fcd60",
+        "id": "dfc6f8e5-4191-465c-b4ff-51f2bbcdf3ba",
         "userId": "025de058-4b2e-4d7d-ace0-cc811318dc5d",
-        "title": "cranberry",
-        "price": 82
+        "title": "Berry-glazed Pork Skewers",
+        "author": "Glenn Konopelski",
+        "collection": "Romani"
     },
     {
-        "id": "c403dc66-9b9a-4429-b9a0-3009c1ef7f49",
+        "id": "af9ac32f-89b7-41cd-8f87-f7ba913446c3",
         "userId": "025de058-4b2e-4d7d-ace0-cc811318dc5d",
-        "title": "elderberry",
-        "price": 101
+        "title": "Elderberry-glazed Pork Skewers",
+        "author": "Miss Naomi Runolfsson",
+        "collection": "Mughal"
     },
     {
-        "id": "e29954ec-4e4c-4116-9011-8f2a1d0bb342",
+        "id": "0dd68765-d78f-4d4b-9827-987ca564de0b",
         "userId": "d1a2e4ef-d3f8-4d63-9b7e-c62040b4068f",
-        "title": "currant",
-        "price": 179
+        "title": "Barberry-infused Duck",
+        "author": "Miss Delores Kessler MD",
+        "collection": "Vietnamese"
     },
     {
-        "id": "c12b545c-8a56-4314-bf40-fed200c6c208",
+        "id": "7b517ba7-ea4d-4ff2-8521-db7ab22d50b9",
         "userId": "d1a2e4ef-d3f8-4d63-9b7e-c62040b4068f",
-        "title": "custard apples daikon",
-        "price": 152
+        "title": "Scotch Eggs",
+        "author": "Mr. Archie Gleason",
+        "collection": "Mexican"
     },
     {
-        "id": "d6e0b269-27a2-4ee5-9165-9a7abbde2d7a",
+        "id": "b98ba8d3-cbd8-4e75-94e7-b1c7c4e00644",
         "userId": "d1a2e4ef-d3f8-4d63-9b7e-c62040b4068f",
-        "title": "tomato",
-        "price": 59
+        "title": "Bunny Chow",
+        "author": "Ed Leuschke",
+        "collection": "Parsi"
     },
     {
-        "id": "5dc372db-4931-4791-9676-253346c2b023",
+        "id": "1063a2da-1ed3-484f-bc25-78900263e7e1",
         "userId": "d1a2e4ef-d3f8-4d63-9b7e-c62040b4068f",
-        "title": "currant",
-        "price": 116
+        "title": "Citlalli's Special Swordfish",
+        "author": "Blanca Ward-Greenfelder",
+        "collection": "Circassian"
     },
     {
-        "id": "f75dbcdc-e5bc-416b-b518-643ee0288a8e",
+        "id": "e5ec9e86-26d3-4f69-86e9-2b71c22a6d4b",
         "userId": "d1a2e4ef-d3f8-4d63-9b7e-c62040b4068f",
-        "title": "dragonfruit",
-        "price": 87
+        "title": "Massaman Curry",
+        "author": "Gretchen Wolff",
+        "collection": "Odia"
     },
     {
-        "id": "4841e098-500d-4d39-9e9f-2d4841918767",
+        "id": "88973640-211a-4bea-8a78-662b0e8003f5",
         "userId": "d1a2e4ef-d3f8-4d63-9b7e-c62040b4068f",
-        "title": "sultana",
-        "price": 171
+        "title": "Columbus's Special Shiitake Mushrooms",
+        "author": "Vicki Konopelski II",
+        "collection": "Bengali"
     },
     {
-        "id": "7c534d53-bf6d-4be4-8a80-1724a008635d",
+        "id": "6364677d-7698-4ef1-aa00-fa87a89719de",
         "userId": "d1a2e4ef-d3f8-4d63-9b7e-c62040b4068f",
-        "title": "fingerlime",
-        "price": 146
+        "title": "Bush Tomato Pie",
+        "author": "Jared Monahan",
+        "collection": "Korean"
     },
     {
-        "id": "e561f4af-7076-4fda-89d8-00dabfb53f87",
+        "id": "7ea9345f-f235-400e-8ca7-67dd8c7fdd6e",
         "userId": "d1a2e4ef-d3f8-4d63-9b7e-c62040b4068f",
-        "title": "lychee",
-        "price": 164
+        "title": "Goji Berry And Cumquat Tart",
+        "author": "Geneva Ankunding-Reinger",
+        "collection": "English"
     },
     {
-        "id": "85e68d46-cb32-48d7-9a4f-a4b10bba4461",
+        "id": "4a57ce3a-38d0-4e94-aca6-2fe3150acfc0",
         "userId": "d1a2e4ef-d3f8-4d63-9b7e-c62040b4068f",
-        "title": "mandarin",
-        "price": 63
+        "title": "Peking Duck",
+        "author": "Miss Crystal Doyle",
+        "collection": "Mexican"
     },
     {
-        "id": "fd90e953-ac31-47c2-b076-64a0e950bedd",
+        "id": "3882e892-32b3-4a7e-b5bb-a60c5f9fd6a5",
         "userId": "d1a2e4ef-d3f8-4d63-9b7e-c62040b4068f",
-        "title": "honeydew melon",
-        "price": 102
+        "title": "Pork Sausage Roll",
+        "author": "Felipe Gutmann III",
+        "collection": "Keralite"
     },
     {
-        "id": "9cc1d5be-eb02-4b47-b483-5609a2d9ae48",
+        "id": "8ee722cc-2bf2-47f4-b835-5d2c4c1e17b7",
         "userId": "62dcad08-c834-4d98-9bad-284f26927f3e",
-        "title": "sprout",
-        "price": 150
+        "title": "Chicken Milanese",
+        "author": "Edna Glover",
+        "collection": "Crimean Tatar"
     },
     {
-        "id": "092ccbd4-eae3-430f-9479-ae4a0f4244c9",
+        "id": "5e46f2bb-8115-468c-a122-3c6cc6cd1b02",
         "userId": "62dcad08-c834-4d98-9bad-284f26927f3e",
-        "title": "orange",
-        "price": 167
+        "title": "Pappardelle Alla Bolognese",
+        "author": "Pearl Adams",
+        "collection": "Andhra"
     },
     {
-        "id": "6a17530c-3557-4db8-acca-e8dc9419e190",
+        "id": "1393b78b-be7c-480a-bf63-152369ecf96d",
         "userId": "62dcad08-c834-4d98-9bad-284f26927f3e",
-        "title": "orange",
-        "price": 87
+        "title": "Goose With Avocado Sauce",
+        "author": "Mr. Antonio Rutherford",
+        "collection": "Pennsylvania Dutch"
     },
     {
-        "id": "49b260fe-a0c3-4816-8e9c-59ba06a7cb8f",
+        "id": "fe854cc9-1e62-4e9f-a50d-9e6ce91d6119",
         "userId": "62dcad08-c834-4d98-9bad-284f26927f3e",
-        "title": "currant",
-        "price": 24
+        "title": "Chives Salad",
+        "author": "Alexis Haley",
+        "collection": "Crimean Tatar"
     },
     {
-        "id": "91b61be1-9227-424f-a37a-332b52b65eae",
+        "id": "77a49881-a5b4-42ad-a079-af47b3192740",
         "userId": "62dcad08-c834-4d98-9bad-284f26927f3e",
-        "title": "date",
-        "price": 125
+        "title": "Smoky Tatar Stew",
+        "author": "Marilyn Kreiger",
+        "collection": "New Mexican"
     },
     {
-        "id": "d063be2f-b6ba-4c02-9cf0-b5d14d4a4073",
+        "id": "97696bba-8667-4603-8cc7-d72e478461c6",
         "userId": "62dcad08-c834-4d98-9bad-284f26927f3e",
-        "title": "custard apples daikon",
-        "price": 53
+        "title": "Peking Duck",
+        "author": "Donna Homenick",
+        "collection": "Spanish"
     },
     {
-        "id": "fbf6bc5e-12a0-4dfd-b15c-d2699bdd0927",
+        "id": "0170d525-5737-4a41-b626-75f46598840f",
         "userId": "62dcad08-c834-4d98-9bad-284f26927f3e",
-        "title": "sultana",
-        "price": 116
+        "title": "Ajwan Seed-crusted Pork",
+        "author": "Woodrow Schmidt",
+        "collection": "Serbian"
     },
     {
-        "id": "2ebd5125-650d-49c7-9838-7207ddf71fa6",
+        "id": "090b1387-7a6c-430b-8207-c72f79ea85c4",
         "userId": "62dcad08-c834-4d98-9bad-284f26927f3e",
-        "title": "kiwiberry",
-        "price": 147
+        "title": "Bocconcini-infused Duck",
+        "author": "Mr. Mathew Carroll",
+        "collection": "Romani"
     },
     {
-        "id": "eecaed46-0da3-438a-b16e-2d7229d1a154",
+        "id": "7d333482-76a2-4ca9-b36a-325134aa8c86",
         "userId": "62dcad08-c834-4d98-9bad-284f26927f3e",
-        "title": "papaya",
-        "price": 79
+        "title": "Souvlaki",
+        "author": "Ms. Carolyn Spencer",
+        "collection": "Romanian"
     },
     {
-        "id": "dae052f8-f764-4450-aa56-bf673185d0d5",
+        "id": "a61933e9-f406-4d20-b76a-415e8751d08c",
         "userId": "62dcad08-c834-4d98-9bad-284f26927f3e",
-        "title": "sultana",
-        "price": 145
+        "title": "Papaw And Mango Tart",
+        "author": "Clyde Conn",
+        "collection": "Ukrainian"
     },
     {
-        "id": "8e191f73-5114-4601-af07-6b6af48bcac2",
+        "id": "3b9be2a9-2f63-43a5-b311-53dd196a119e",
         "userId": "4f14ac54-6568-4376-9ae9-32c20b798bff",
-        "title": "prune",
-        "price": 199
+        "title": "Chicken With Peach Sauce",
+        "author": "Grady Larson-Senger",
+        "collection": "Romanian"
     },
     {
-        "id": "0e3afcd3-9f15-4aee-9f06-883e98ffeb64",
+        "id": "b92d137a-160a-43e1-bfb1-4d15217e705a",
         "userId": "4f14ac54-6568-4376-9ae9-32c20b798bff",
-        "title": "sprout",
-        "price": 104
+        "title": "Maddison's Special Milk Chocolate",
+        "author": "Dr. Cheryl Schmeler",
+        "collection": "Mordovian"
     },
     {
-        "id": "67188955-52a8-49b5-a086-42d303ccda7f",
+        "id": "1179527b-642d-4ad1-bd7e-f27a0bc8ddbc",
         "userId": "4f14ac54-6568-4376-9ae9-32c20b798bff",
-        "title": "tangelo",
-        "price": 98
+        "title": "Fish And Chips",
+        "author": "Israel Reilly",
+        "collection": "Hyderabad"
     },
     {
-        "id": "7b9cad2a-b7e7-49f5-902a-cef62b710db6",
+        "id": "1cecfdb4-f875-4511-985e-b22a143485de",
         "userId": "4f14ac54-6568-4376-9ae9-32c20b798bff",
-        "title": "dragonfruit",
-        "price": 19
+        "title": "Katsu Curry",
+        "author": "Tabitha Herman",
+        "collection": "Texan"
     },
     {
-        "id": "d690b3f4-b9c9-4f08-85f2-fa1285e6305f",
+        "id": "6bab8081-019c-49bb-8f8d-0af3bcadc99a",
         "userId": "4f14ac54-6568-4376-9ae9-32c20b798bff",
-        "title": "blood orange",
-        "price": 161
+        "title": "Chicken Fajitas",
+        "author": "Ms. Belinda Hagenes",
+        "collection": "Eritrean"
     },
     {
-        "id": "0a2e2bc9-f8d4-4b5d-8ae5-852310f410c8",
+        "id": "e72b873b-d42a-4c07-909c-9c3a237c8389",
         "userId": "4f14ac54-6568-4376-9ae9-32c20b798bff",
-        "title": "blood orange",
-        "price": 62
+        "title": "Passionfruit And Kiwi Fruit Tart",
+        "author": "Mr. Kenneth Kohler",
+        "collection": "Armenian"
     },
     {
-        "id": "495ebf0c-d944-479f-9485-e3f101930824",
+        "id": "92d92248-d896-4d75-a770-dacaeaa99170",
         "userId": "4f14ac54-6568-4376-9ae9-32c20b798bff",
-        "title": "sultana",
-        "price": 121
+        "title": "Incaberry And Kiwi Fruit Tart",
+        "author": "Jennie Lockman",
+        "collection": "Chechen"
     },
     {
-        "id": "5c56e702-79c4-485d-a34a-ba8091fe693a",
+        "id": "242c0c12-bbfd-4a0e-b2cf-1f0cca86b456",
         "userId": "4f14ac54-6568-4376-9ae9-32c20b798bff",
-        "title": "goji berry",
-        "price": 55
+        "title": "Katsu Curry",
+        "author": "Susan Swaniawski",
+        "collection": "Sri Lankan"
     },
     {
-        "id": "14110afb-ada0-4ffe-b7a7-e186974fff99",
+        "id": "baceed40-a4a3-4f0b-874a-46f4ea34d438",
         "userId": "4f14ac54-6568-4376-9ae9-32c20b798bff",
-        "title": "mango",
-        "price": 51
+        "title": "Poutine",
+        "author": "Gertrude Reichel",
+        "collection": "Anglo-Indian"
     },
     {
-        "id": "fbd70a80-b070-4c79-a157-41e640f94551",
+        "id": "ed233026-ddcd-4f64-823e-d9f16391b8d9",
         "userId": "4f14ac54-6568-4376-9ae9-32c20b798bff",
-        "title": "custard apples daikon",
-        "price": 27
+        "title": "Hummus",
+        "author": "Lindsay Casper",
+        "collection": "Assyrian"
     },
     {
-        "id": "5f4fe2bd-144b-4320-ad2d-e42e25ec5f38",
+        "id": "6c7ab281-4696-4923-9831-7d134e91bcd6",
         "userId": "1cb8d8c9-e9ca-4ce2-98e3-8dfabd2834c8",
-        "title": "nectarine",
-        "price": 105
+        "title": "Mangalorean Flounder Soup",
+        "author": "Angie Heller",
+        "collection": "Peranakan"
     },
     {
-        "id": "b7eecd5f-3166-49f3-9f88-aa5a781aa573",
+        "id": "5ec83b5c-6120-4859-adce-dcd0d57a8151",
         "userId": "1cb8d8c9-e9ca-4ce2-98e3-8dfabd2834c8",
-        "title": "aubergine",
-        "price": 176
+        "title": "Awadhi Tangelo Soup",
+        "author": "Domingo Gottlieb",
+        "collection": "Spanish"
     },
     {
-        "id": "b286c20a-4779-4f0b-a2d5-3740c79e3d9b",
+        "id": "41d23a49-7b5c-4ebe-b2bc-75f3f08d4d7d",
         "userId": "1cb8d8c9-e9ca-4ce2-98e3-8dfabd2834c8",
-        "title": "papaw",
-        "price": 61
+        "title": "Turkish Vegetable Stock Soup",
+        "author": "Mary O'Keefe",
+        "collection": "Mennonite"
     },
     {
-        "id": "7fc7357a-bc24-4d27-9c23-ea0bd2d33a26",
+        "id": "bae65bcb-cf73-475a-8538-104e97d1901d",
         "userId": "1cb8d8c9-e9ca-4ce2-98e3-8dfabd2834c8",
-        "title": "fingerlime",
-        "price": 37
+        "title": "Chicken Wings",
+        "author": "Kathy Beier",
+        "collection": "Maharashtrian"
     },
     {
-        "id": "c522ac8d-0a16-4594-9740-ed5488a2b03f",
+        "id": "69ef5888-f469-4371-ac72-73f1f7274164",
         "userId": "1cb8d8c9-e9ca-4ce2-98e3-8dfabd2834c8",
-        "title": "feijoa",
-        "price": 190
+        "title": "Lime Pie",
+        "author": "Ann Collins",
+        "collection": "Portuguese"
     },
     {
-        "id": "78821f72-a558-45fe-91fe-d4a1b586791d",
+        "id": "215bb39a-eeea-451b-9308-c54fe7e960df",
         "userId": "1cb8d8c9-e9ca-4ce2-98e3-8dfabd2834c8",
-        "title": "mangosteen",
-        "price": 82
+        "title": "Natalie's Special Broccolini",
+        "author": "Miss Cristina Shanahan",
+        "collection": "Mughal"
     },
     {
-        "id": "609a169c-c194-4f0a-a2da-dbdc1c7f9e6e",
+        "id": "d8f6cf55-bdbd-493d-8982-f8158cb862fe",
         "userId": "1cb8d8c9-e9ca-4ce2-98e3-8dfabd2834c8",
-        "title": "strawberry",
-        "price": 41
+        "title": "Emu With Sultana Sauce",
+        "author": "Abraham Fay",
+        "collection": "Georgian"
     },
     {
-        "id": "cfa34cbf-a6f9-425c-bd34-0daeac915262",
+        "id": "eeb27c64-da6e-43a9-8c15-573ecb29b167",
         "userId": "1cb8d8c9-e9ca-4ce2-98e3-8dfabd2834c8",
-        "title": "sultana",
-        "price": 105
+        "title": "Chicken Parm",
+        "author": "Elena Stroman",
+        "collection": "Kurdish"
     },
     {
-        "id": "77cd77a8-7bf0-4e6d-9530-5dc77fc965cd",
+        "id": "45ac4a9b-4fa2-4e99-920d-b32755abb574",
         "userId": "1cb8d8c9-e9ca-4ce2-98e3-8dfabd2834c8",
-        "title": "papaw",
-        "price": 102
+        "title": "Chicken With Incaberry Sauce",
+        "author": "Mrs. Christy Heathcote",
+        "collection": "Thai"
     },
     {
-        "id": "80fbfd72-7d0d-4dee-a33d-ed0b00829108",
+        "id": "be18246e-bfb6-4f89-be47-392b662a2db7",
         "userId": "1cb8d8c9-e9ca-4ce2-98e3-8dfabd2834c8",
-        "title": "peach",
-        "price": 94
+        "title": "Red Wine-infused Duck",
+        "author": "Leonard Douglas",
+        "collection": "English"
     },
     {
-        "id": "571577c2-9bc5-4673-915c-c90b159a50af",
+        "id": "63cc6adf-ae7f-47a1-823b-da072b6808d5",
         "userId": "58e8a543-aca4-466c-a66e-b92c9788b311",
-        "title": "bush tomato",
-        "price": 135
+        "title": "Chicken Milanese",
+        "author": "Mike Gleason",
+        "collection": "South Indian"
     },
     {
-        "id": "7f4a2a5b-31f3-4bce-b9fe-d0177230c3e2",
+        "id": "48158075-4b83-4f63-865f-a2ca5cc15689",
         "userId": "58e8a543-aca4-466c-a66e-b92c9788b311",
-        "title": "olive",
-        "price": 40
+        "title": "Kebab",
+        "author": "Bruce Rodriguez",
+        "collection": "Kurdish"
     },
     {
-        "id": "4c3d33fa-2249-48e1-b4f5-886ca2ef47a4",
+        "id": "7288f7b6-f1a0-44c1-99f0-ec244549e22f",
         "userId": "58e8a543-aca4-466c-a66e-b92c9788b311",
-        "title": "currant",
-        "price": 59
+        "title": "Turkey With Honeydew Melon Sauce",
+        "author": "Cameron Boyle",
+        "collection": "Pashtun"
     },
     {
-        "id": "08deb7dd-1850-4f45-8300-cd9c16f6a8f1",
+        "id": "9bfd46e1-232e-4a23-a837-c4df31fb0ca0",
         "userId": "58e8a543-aca4-466c-a66e-b92c9788b311",
-        "title": "snowpea",
-        "price": 33
+        "title": "Sushi",
+        "author": "Micheal Heller",
+        "collection": "Awadhi"
     },
     {
-        "id": "b89f3806-22ae-4a0d-afc8-4a3f30c057e5",
+        "id": "f99e2136-13c9-4fa1-8f8c-b9291b683abe",
         "userId": "58e8a543-aca4-466c-a66e-b92c9788b311",
-        "title": "lime",
-        "price": 95
+        "title": "Fenugreek-crusted Rabbit",
+        "author": "Renee Feil",
+        "collection": "Portuguese"
     },
     {
-        "id": "8cb2d750-6b21-415d-af3e-eebb31ec9df5",
+        "id": "fc18330d-83c4-4de8-a8df-2bcc1466fa94",
         "userId": "58e8a543-aca4-466c-a66e-b92c9788b311",
-        "title": "mulberry",
-        "price": 14
+        "title": "Linguine With Clams",
+        "author": "Dominic Flatley",
+        "collection": "Chinese"
     },
     {
-        "id": "3b75eead-263b-498e-b11a-ec47a34f5b70",
+        "id": "b5cf7cb4-82cc-4ff4-806e-737cdc17daca",
         "userId": "58e8a543-aca4-466c-a66e-b92c9788b311",
-        "title": "banana",
-        "price": 155
+        "title": "Haley's Special Apple Juice",
+        "author": "Cesar Schowalter",
+        "collection": "Sri Lankan"
     },
     {
-        "id": "1c99368c-cb90-43a2-b18e-9bad7a064de0",
+        "id": "656d6be1-37ae-4952-8ebd-20f21e4a82f2",
         "userId": "58e8a543-aca4-466c-a66e-b92c9788b311",
-        "title": "pomegranate",
-        "price": 111
+        "title": "Emu With Apricot Sauce",
+        "author": "Eric Beahan",
+        "collection": "Latvian"
     },
     {
-        "id": "573c2363-92ff-4d82-b929-a371ca994ab5",
+        "id": "82167828-6580-45df-8da3-9534308fe454",
         "userId": "58e8a543-aca4-466c-a66e-b92c9788b311",
-        "title": "orange",
-        "price": 27
+        "title": "Mangalorean Flounder Soup",
+        "author": "Elsa Wilderman",
+        "collection": "Louisiana Creole"
     },
     {
-        "id": "b54933dc-892c-4ffa-b197-21a21cdc21a2",
+        "id": "947255ec-355f-4b57-b131-49cad1b85bbf",
         "userId": "58e8a543-aca4-466c-a66e-b92c9788b311",
-        "title": "snowpea",
-        "price": 100
+        "title": "Pineapple Pie",
+        "author": "Judy Conroy MD",
+        "collection": "Persian"
     }
 ]

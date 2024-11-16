@@ -27,6 +27,16 @@ export async function login(email, password) {
     return response;
 }
 
+export async function register(fullName, email, password) {
+    const response = await instance.post('/register', {
+        fullName,
+        email,
+        password,
+    });
+
+    return response;
+}
+
 export const auctionRequests = {
     getAll: async () => {
         return await instance.get('/auctions');
@@ -49,5 +59,11 @@ export const auctionRequests = {
             title,
             startTime,
         });
+    },
+};
+
+export const itemsRequests = {
+    getAll: async () => {
+        return await instance.get('/items');
     },
 };

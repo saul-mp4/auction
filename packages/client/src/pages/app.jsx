@@ -7,7 +7,13 @@ export function App() {
                     Item storage
                 </a>
                 <a href="/auctions" className="text-xl">
-                    Borwse auctions
+                    Your auctions
+                </a>
+                <a href="/auctions/create" className="text-xl">
+                    Create new auction
+                </a>
+                <a href="/auctions/browse" className="text-xl">
+                    Borwse active auctions
                 </a>
             </ul>
         </>

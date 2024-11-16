@@ -1,7 +1,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { faker } from '@faker-js/faker';
-import users from '../data/users.json';
+import users from '../data/users.json' with { type: 'json' };
 
 function generate() {
     const items = users
@@ -10,15 +10,16 @@ function generate() {
                 return {
                     id: faker.string.uuid(),
                     userId: user.id,
-                    title: faker.food.fruit(),
-                    price: faker.number.int({ min: 10, max: 200 }),
+                    title: faker.food.dish(),
+                    author: faker.person.fullName(),
+                    collection: faker.food.ethnicCategory(),
                 };
             });
             return items;
         })
         .flat();
 
-    const filePath = path.join(__dirname, '../data/items.json');
+    const filePath = path.join(import.meta.dirname, '../data/items.json');
     fs.writeFileSync(filePath, JSON.stringify(items), 'utf-8');
 }
 

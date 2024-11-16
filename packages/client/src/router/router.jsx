@@ -11,7 +11,7 @@ import {
 } from '../pages';
 import { Container, Protected } from '../layouts';
 import { auctionRoomLoader, authorizeLoader } from './loaders';
-import { createAuctionAction, loginAction } from './actions';
+import { createAuctionAction, loginAction, registerAction } from './actions';
 
 export const router = createBrowserRouter([
     {
@@ -20,6 +20,7 @@ export const router = createBrowserRouter([
             {
                 path: '/register',
                 element: <Register />,
+                action: registerAction,
             },
             {
                 path: '/login',

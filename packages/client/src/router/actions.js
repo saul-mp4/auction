@@ -1,4 +1,4 @@
-import { auctionRequests, login } from '../axios';
+import { auctionRequests, login, register } from '../axios';
 import { redirect } from 'react-router-dom';
 
 export async function loginAction({ request }) {
@@ -9,6 +9,18 @@ export async function loginAction({ request }) {
     );
 
     if (response.status === 200) return redirect('/');
+    return null;
+}
+
+export async function registerAction({ request }) {
+    const formData = await request.formData();
+    const response = await register(
+        formData.get('fullName'),
+        formData.get('email'),
+        formData.get('password')
+    );
+
+    if (response.status === 200) return redirect('/login');
     return null;
 }
 
