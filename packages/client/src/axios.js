@@ -54,10 +54,11 @@ export const auctionRequests = {
             },
         });
     },
-    post: async (title, startTime) => {
+    post: async (title, startTime, itemId) => {
         return await instance.post('/auctions', {
             title,
             startTime,
+            itemId,
         });
     },
 };

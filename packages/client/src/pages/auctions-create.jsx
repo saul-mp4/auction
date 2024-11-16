@@ -1,9 +1,15 @@
 import { format } from 'date-fns';
 import { Form } from 'react-router-dom';
+import { useQuery } from '@tanstack/react-query';
+import { itemsRequests } from '../axios';
 
 export function AuctionsCreate() {
     // eslint-disable-next-line quotes
     const now = format(new Date(), "yyyy-MM-dd'T'HH:mm");
+    const query = useQuery({
+        queryKey: ['items'],
+        queryFn: itemsRequests.getAll,
+    });
 
     return (
         <Form
@@ -31,6 +37,18 @@ export function AuctionsCreate() {
                     min={now}
                     required
                 />
+            </label>
+            <label className="text-lg flex flex-col gap-1" htmlFor="items">
+                Choose your item
+                <select name="items" id="items" className="text-lg p-2">
+                    {query.data?.data.map(({ id, title }) => {
+                        return (
+                            <option value={id} key={id}>
+                                {title}
+                            </option>
+                        );
+                    })}
+                </select>
             </label>
             <button className="mt-4 text-lg p-1">Create auction room</button>
         </Form>

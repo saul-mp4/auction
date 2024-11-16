@@ -28,7 +28,8 @@ export async function createAuctionAction({ request }) {
     const formData = await request.formData();
     const response = await auctionRequests.post(
         formData.get('title'),
-        formData.get('startTime')
+        formData.get('startTime'),
+        formData.get('items')
     );
 
     if (response.status === 200) return redirect('/auctions');

@@ -6,7 +6,6 @@ import { format } from 'date-fns';
 
 export function AuctionRoom() {
     const auction = useLoaderData();
-    console.log(auction);
     useAuctionSocket(auction);
     return (
         <div>
@@ -27,6 +26,23 @@ export function AuctionRoom() {
                                     'dd LLL yyyy HH:mm'
                                 )}
                             </span>
+                        </li>
+                    </ul>
+                </div>
+                <div className="rounded-sm border border-solid border-black">
+                    <h2 className="p-2">Item Info</h2>
+                    <ul className="list-none">
+                        <li className="p-2 bg-stone-200 rounded-sm  ">
+                            <span className="font-bold">Title - </span>
+                            <span>{auction.items[0].title}</span>
+                        </li>
+                        <li className="p-2 bg-stone-200 rounded-sm  ">
+                            <span className="font-bold">Author - </span>
+                            <span>{auction.items[0].author}</span>
+                        </li>
+                        <li className="p-2 bg-stone-200 rounded-sm  ">
+                            <span className="font-bold">Collection - </span>
+                            <span>{auction.items[0].collection}</span>
                         </li>
                     </ul>
                 </div>

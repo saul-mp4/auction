@@ -14,6 +14,13 @@ auctionRouter.get('/', async (req, res) => {
                 userSellerId: user.id,
                 status,
             },
+            include: {
+                items: {
+                    select: {
+                        title: true,
+                    },
+                },
+            },
         })
     );
 });
@@ -33,6 +40,11 @@ auctionRouter.get('/browse', async (req, res) => {
                         fullName: true,
                     },
                 },
+                items: {
+                    select: {
+                        title: true,
+                    },
+                },
             },
         })
     );
@@ -45,12 +57,15 @@ auctionRouter.get('/:id', async (req, res) => {
             where: {
                 id,
             },
+            include: {
+                items: true,
+            },
         })
     );
 });
 
 auctionRouter.post('/', async (req, res) => {
-    const { title, startTime } = req.body;
+    const { title, startTime, itemId } = req.body;
     const startTimeDate = new Date(startTime);
     const auction = await prisma.auction.create({
         data: {
@@ -62,6 +77,15 @@ auctionRouter.post('/', async (req, res) => {
     //Schedule status change
     const delay = startTimeDate.getTime() - Date.now();
     await auctinonQueue.add(auction.id, { status: 'STARTED' }, { delay });
+    //Add item to auction
+    await prisma.item.update({
+        where: {
+            id: itemId,
+        },
+        data: {
+            auctionId: auction.id,
+        },
+    });
     res.json(auction);
 });
 

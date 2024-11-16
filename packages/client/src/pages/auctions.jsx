@@ -27,12 +27,13 @@ export function Auctions() {
                     <tr className="border-solid border-y-2 border-x-0 border-slate-500 *:p-2">
                         <th>Auction title</th>
                         <th>Start time</th>
+                        <th>Item</th>
                         <th>Status</th>
                     </tr>
                 </thead>
                 <tbody>
                     {query.data?.data.map(
-                        ({ id, title, startTime, status }) => {
+                        ({ id, title, startTime, status, items }) => {
                             return (
                                 <tr
                                     className="odd:bg-white even:bg-slate-200 *:p-2"
@@ -45,7 +46,8 @@ export function Auctions() {
                                             'dd LLL yyyy HH:mm'
                                         )}
                                     </td>
-                                    <td>{status}</td>
+                                    <td>{items[0].title}</td>
+                                    <td>{status.toLowerCase()}</td>
                                     <td>
                                         <button
                                             className="py-1 px-2 text-lg"
