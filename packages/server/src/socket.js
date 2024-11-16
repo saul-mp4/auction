@@ -15,7 +15,6 @@ export async function socketHandlers(socket) {
         if (auction?.id) {
             room = `room:${auction.id}`;
             socket.join(room);
-            // socket.emit('message', `You joined room ${auction.title}`);
             socket.nsp
                 .to(room)
                 .emit('message', `${user.fullName} joined the room!`);
