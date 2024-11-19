@@ -15,6 +15,10 @@ export function AuctionRoom() {
                     <h2 className="p-2">Room Info</h2>
                     <ul className="list-none">
                         <li className="p-2 bg-neutral-200 rounded-sm  ">
+                            <span className="font-bold">Host - </span>
+                            <span>{auction.userSeller.fullName}</span>
+                        </li>
+                        <li className="p-2 bg-neutral-200 rounded-sm  ">
                             <span className="font-bold">Status - </span>
                             <span>{auction.status.toLowerCase()}</span>
                         </li>

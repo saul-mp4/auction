@@ -1,7 +1,7 @@
 import express from 'express';
 
 import { prisma } from '../../prisma/client.js';
-import { auctinonQueue } from '../bull.js';
+import { startAuctionQueue } from '../bull.js';
 
 export const auctionRouter = express.Router();
 
@@ -59,6 +59,7 @@ auctionRouter.get('/:id', async (req, res) => {
             },
             include: {
                 items: true,
+                userSeller: true,
             },
         })
     );
@@ -76,7 +77,7 @@ auctionRouter.post('/', async (req, res) => {
     });
     //Schedule status change
     const delay = startTimeDate.getTime() - Date.now();
-    await auctinonQueue.add(auction.id, { status: 'STARTED' }, { delay });
+    await startAuctionQueue.add(auction.id, { status: 'STARTED' }, { delay });
     //Add item to auction
     await prisma.item.update({
         where: {

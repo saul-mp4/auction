@@ -2,7 +2,6 @@ import 'dotenv/config';
 import express from 'express';
 import cors from 'cors';
 import { createServer } from 'node:http';
-import { Server } from 'socket.io';
 
 import passport from './passport.js';
 import {
@@ -11,14 +10,12 @@ import {
     itemRouter,
     auctionRouter,
 } from './routes/index.js';
-import { socketHandlers } from './socket.js';
+import { initSocket } from './socket.js';
 
 //init
 const app = express();
 const server = createServer(app);
-const io = new Server(server, {
-    cors: 'http://localhost:5173',
-});
+const io = initSocket(server);
 
 //express http
 app.get('/', (_, res) => res.send('Hello, this is server!'));
@@ -49,7 +46,6 @@ io.engine.use((req, res, next) => {
         next();
     }
 });
-io.on('connection', async (socket) => socketHandlers(socket));
 
 //server
 server.listen(3000, () => {
