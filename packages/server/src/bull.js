@@ -13,17 +13,19 @@ export const endAuctionQueue = new Queue('end-auction', { connection });
 const startAuctionWorker = new Worker(
     'start-auction',
     async ({ name }) => {
-        await prisma.auction.update({
+        const auction = await prisma.auction.update({
             where: { id: name },
             data: {
                 status: 'STARTED',
             },
         });
-        endAuctionQueue.add(name, {}, { delay: 60000 });
+        const delay = auction.endTime.getTime() - Date.now();
+        endAuctionQueue.add(name, {}, { delay });
+
         const room = `room:${name}`;
         const io = getIO();
         io.of('/').in(room).emit('message', 'Auction started');
-        // socket send updated auction data
+        io.of('/').in(room).emit('auction-status-change', 'STARTED');
     },
     { connection }
 );
@@ -39,7 +41,7 @@ const endAuctionWorker = new Worker(
         const room = `room:${name}`;
         const io = getIO();
         io.of('/').in(room).emit('message', 'Auction finished');
-        // socket send updated auction data
+        io.of('/').in(room).emit('auction-status-change', 'FINISHED');
     },
     {
         connection,
@@ -49,7 +51,6 @@ const endAuctionWorker = new Worker(
 startAuctionWorker.on('completed', (job) =>
     console.log(`auction start job - ${job.id} completed`)
 );
-
 endAuctionWorker.on('completed', (job) =>
     console.log(`auction end job - ${job.id} completed`)
 );

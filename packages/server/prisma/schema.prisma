@@ -67,6 +67,7 @@ model Auction {
   id        String        @id @default(uuid())
   title     String
   startTime DateTime      @map("start_time")
+  endTime   DateTime      @map("end_time")
   status    AuctionStatus @default(CREATED)
   createdAt DateTime      @default(now()) @map("created_at")
 

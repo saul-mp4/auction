@@ -68,11 +68,13 @@ auctionRouter.get('/:id', async (req, res) => {
 auctionRouter.post('/', async (req, res) => {
     const { title, startTime, itemId } = req.body;
     const startTimeDate = new Date(startTime);
+    const endTime = new Date(startTimeDate.getTime() + 2 * 60 * 1000);
     const auction = await prisma.auction.create({
         data: {
             userSellerId: req.user.id,
             title,
             startTime: startTimeDate,
+            endTime,
         },
     });
     //Schedule status change

@@ -1454,6 +1454,7 @@ __metadata:
     date-fns: "npm:^4.1.0"
     postcss: "npm:^8.4.47"
     react: "npm:^18.3.1"
+    react-countdown: "npm:^2.3.6"
     react-dom: "npm:^18.3.1"
     react-router-dom: "npm:^6.27.0"
     socket.io-client: "npm:^4.8.1"
@@ -4347,7 +4348,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prop-types@npm:^15.8.1":
+"prop-types@npm:^15.7.2, prop-types@npm:^15.8.1":
   version: 15.8.1
   resolution: "prop-types@npm:15.8.1"
   dependencies:
@@ -4421,6 +4422,18 @@ __metadata:
     iconv-lite: "npm:0.4.24"
     unpipe: "npm:1.0.0"
   checksum: 10c0/b201c4b66049369a60e766318caff5cb3cc5a900efd89bdac431463822d976ad0670912c931fdbdcf5543207daf6f6833bca57aa116e1661d2ea91e12ca692c4
+  languageName: node
+  linkType: hard
+
+"react-countdown@npm:^2.3.6":
+  version: 2.3.6
+  resolution: "react-countdown@npm:2.3.6"
+  dependencies:
+    prop-types: "npm:^15.7.2"
+  peerDependencies:
+    react: ">= 15"
+    react-dom: ">= 15"
+  checksum: 10c0/defb75cb9802c499eb0d5f6c8c6e4269de1005f9c05d5162bccf45063782fd2f5f87acd95d11f70e623fa75085a546b9d0fb0df27c5287ed6a86334342d903cf
   languageName: node
   linkType: hard
 
