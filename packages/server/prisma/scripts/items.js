@@ -6,7 +6,7 @@ import users from '../data/users.json' with { type: 'json' };
 function generate() {
     const items = users
         .map((user) => {
-            const items = Array.from({ length: 10 }).map(() => {
+            const items = Array.from({ length: 5 }).map(() => {
                 return {
                     id: faker.string.uuid(),
                     userId: user.id,

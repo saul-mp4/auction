@@ -19,7 +19,7 @@ authRouter.post('/register', async (req, res, next) => {
             },
         });
 
-        const items = Array.from({ length: 10 }).map(() => {
+        const items = Array.from({ length: 5 }).map(() => {
             return {
                 id: faker.string.uuid(),
                 userId: user.id,

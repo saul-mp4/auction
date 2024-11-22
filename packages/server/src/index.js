@@ -9,6 +9,7 @@ import {
     userRouter,
     itemRouter,
     auctionRouter,
+    bidsRouter,
 } from './routes/index.js';
 import { initSocket } from './socket.js';
 
@@ -36,6 +37,7 @@ app.use(passport.authenticate('jwt', { session: false }));
 app.use('/user', userRouter);
 app.use('/items', itemRouter);
 app.use('/auctions', auctionRouter);
+app.use('/bids', bidsRouter);
 
 // socket
 io.engine.use((req, res, next) => {

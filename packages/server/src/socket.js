@@ -31,6 +31,36 @@ export const initSocket = (server) => {
                     .emit('message', `${user.fullName} joined the room!`);
             }
         });
+
+        socket.on(
+            'place-bid',
+            async ({ price, timeStamp, auctionId, itemId }) => {
+                const bid = await prisma.bid.create({
+                    data: {
+                        userId: user.id,
+                        price,
+                        timeStamp,
+                        auctionId,
+                        itemId,
+                    },
+                    include: {
+                        user: {
+                            select: {
+                                fullName: true,
+                            },
+                        },
+                    },
+                });
+
+                socket.nsp.to(room).emit('update-bids', bid);
+                socket.nsp
+                    .to(room)
+                    .emit(
+                        'message',
+                        `${user.fullName} placed a bid of ${bid.price}`
+                    );
+            }
+        );
     });
 
     return io;

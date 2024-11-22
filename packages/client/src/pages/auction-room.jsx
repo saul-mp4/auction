@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { useLoaderData } from 'react-router-dom';
 import { socket } from '../socket';
-import { EventChat, CountdownTimer } from '../components';
+import { EventChat, CountdownTimer, Bids } from '../components';
 import { format } from 'date-fns';
 
 const statusColors = {
@@ -13,10 +13,11 @@ const statusColors = {
 export function AuctionRoom() {
     const auction = useLoaderData();
     const { status } = useAuctionSocket(auction);
+
     return (
         <div>
             <h1 className="text-center mb-8">{auction.title}</h1>
-            <div className="flex gap-16">
+            <div className="flex gap-16 mb-4">
                 <div className="rounded-sm border border-solid border-black">
                     <h2 className="p-2">Room Info</h2>
                     <ul className="list-none">
@@ -72,6 +73,14 @@ export function AuctionRoom() {
                     startTime={new Date(auction.startTime)}
                     endTime={new Date(auction.endTime)}
                     status={status}
+                />
+            </div>
+            <div className="flex gap-16">
+                <Bids
+                    status={status}
+                    loadedBids={auction.bids}
+                    itemId={auction.items[0].id}
+                    auctionId={auction.id}
                 />
             </div>
         </div>

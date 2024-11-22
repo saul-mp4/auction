@@ -5,7 +5,7 @@ export function EventChat() {
     const [messages, setMessages] = useState([]);
     useEffect(() => {
         socket.on('message', (event) =>
-            setMessages([event, ...messages].slice(0, 10))
+            setMessages([event, ...messages].slice(0, 5))
         );
         return () => {
             socket.off('message');

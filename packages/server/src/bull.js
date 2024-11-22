@@ -32,16 +32,54 @@ const startAuctionWorker = new Worker(
 const endAuctionWorker = new Worker(
     'end-auction',
     async ({ name }) => {
-        await prisma.auction.update({
-            where: { id: name },
-            data: {
-                status: 'FINISHED',
-            },
-        });
-        const room = `room:${name}`;
-        const io = getIO();
-        io.of('/').in(room).emit('message', 'Auction finished');
-        io.of('/').in(room).emit('auction-status-change', 'FINISHED');
+        try {
+            const auction = await prisma.auction.update({
+                where: { id: name },
+                data: {
+                    status: 'FINISHED',
+                },
+                include: {
+                    items: true,
+                    userSeller: true,
+                    bids: {
+                        include: {
+                            user: {
+                                select: {
+                                    id: true,
+                                    fullName: true,
+                                },
+                            },
+                        },
+                    },
+                },
+            });
+
+            const highestBidUser = auction.bids.reduce((prevBid, currBid) =>
+                prevBid && prevBid.price > currBid.price ? prevBid : currBid
+            );
+
+            await prisma.item.update({
+                where: {
+                    id: auction.items[0].id,
+                },
+                data: {
+                    userId: highestBidUser.user.id,
+                },
+            });
+
+            const room = `room:${name}`;
+            const io = getIO();
+            io.of('/').in(room).emit('message', 'Auction finished');
+            io.of('/')
+                .in(room)
+                .emit(
+                    'message',
+                    `The winner is ${highestBidUser.user.fullName}`
+                );
+            io.of('/').in(room).emit('auction-status-change', 'FINISHED');
+        } catch (e) {
+            console.error(e);
+        }
     },
     {
         connection,
