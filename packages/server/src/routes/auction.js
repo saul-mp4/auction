@@ -1,7 +1,7 @@
 import express from 'express';
 
 import { prisma } from '../../prisma/client.js';
-import { startAuctionQueue } from '../bull.js';
+import { scheduleManager } from '../scheduler.js';
 
 export const auctionRouter = express.Router();
 
@@ -86,9 +86,7 @@ auctionRouter.post('/', async (req, res) => {
             endTime,
         },
     });
-    //Schedule status change
-    const delay = startTimeDate.getTime() - Date.now();
-    await startAuctionQueue.add(auction.id, { status: 'STARTED' }, { delay });
+
     //Add item to auction
     await prisma.item.update({
         where: {
@@ -98,6 +96,11 @@ auctionRouter.post('/', async (req, res) => {
             auctionId: auction.id,
         },
     });
+
+    //Schedule tasks
+    scheduleManager.setAuctionStart(auction.id, auction.startTime);
+    scheduleManager.setAuctionEnd(auction.id, auction.endTime);
+
     res.json(auction);
 });
 

@@ -1,37 +1,23 @@
-import { Queue, Worker } from 'bullmq';
-import { prisma } from '../prisma/client.js';
+import { scheduleJob } from 'node-schedule';
 import { socketManager } from './socket.js';
+import { prisma } from '../prisma/client.js';
 
-const connection = {
-    host: '127.0.0.1',
-    port: 6379,
-};
-
-export const startAuctionQueue = new Queue('start-auction', { connection });
-export const endAuctionQueue = new Queue('end-auction', { connection });
-
-const startAuctionWorker = new Worker(
-    'start-auction',
-    async ({ name }) => {
-        const auction = await prisma.auction.update({
-            where: { id: name },
-            data: {
-                status: 'STARTED',
-            },
+export const scheduleManager = {
+    setAuctionStart(auctionId, date) {
+        scheduleJob(date, async () => {
+            await prisma.auction.update({
+                where: { id: auctionId },
+                data: {
+                    status: 'STARTED',
+                },
+            });
+            socketManager.auctionStarted();
         });
-        const delay = auction.endTime.getTime() - Date.now();
-        endAuctionQueue.add(name, {}, { delay });
-
-        socketManager.auctionStarted();
     },
-    { connection }
-);
-const endAuctionWorker = new Worker(
-    'end-auction',
-    async ({ name }) => {
-        try {
+    setAuctionEnd(auctionId, date) {
+        scheduleJob(date, async () => {
             const auction = await prisma.auction.update({
-                where: { id: name },
+                where: { id: auctionId },
                 data: {
                     status: 'FINISHED',
                 },
@@ -65,18 +51,6 @@ const endAuctionWorker = new Worker(
             });
 
             socketManager.auctionFinished(highestBid.user.fullName);
-        } catch (e) {
-            console.error(e);
-        }
+        });
     },
-    {
-        connection,
-    }
-);
-
-startAuctionWorker.on('completed', (job) =>
-    console.log(`auction start job - ${job.id} completed`)
-);
-endAuctionWorker.on('completed', (job) =>
-    console.log(`auction end job - ${job.id} completed`)
-);
+};
