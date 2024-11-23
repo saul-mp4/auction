@@ -1,6 +1,6 @@
 import { Queue, Worker } from 'bullmq';
 import { prisma } from '../prisma/client.js';
-import { getIO } from './socket.js';
+import { socketManager } from './socket.js';
 
 const connection = {
     host: '127.0.0.1',
@@ -22,10 +22,7 @@ const startAuctionWorker = new Worker(
         const delay = auction.endTime.getTime() - Date.now();
         endAuctionQueue.add(name, {}, { delay });
 
-        const room = `room:${name}`;
-        const io = getIO();
-        io.of('/').in(room).emit('message', 'Auction started');
-        io.of('/').in(room).emit('auction-status-change', 'STARTED');
+        socketManager.auctionStarted();
     },
     { connection }
 );
@@ -54,7 +51,7 @@ const endAuctionWorker = new Worker(
                 },
             });
 
-            const highestBidUser = auction.bids.reduce((prevBid, currBid) =>
+            const highestBid = auction.bids.reduce((prevBid, currBid) =>
                 prevBid && prevBid.price > currBid.price ? prevBid : currBid
             );
 
@@ -63,20 +60,11 @@ const endAuctionWorker = new Worker(
                     id: auction.items[0].id,
                 },
                 data: {
-                    userId: highestBidUser.user.id,
+                    userId: highestBid.user.id,
                 },
             });
 
-            const room = `room:${name}`;
-            const io = getIO();
-            io.of('/').in(room).emit('message', 'Auction finished');
-            io.of('/')
-                .in(room)
-                .emit(
-                    'message',
-                    `The winner is ${highestBidUser.user.fullName}`
-                );
-            io.of('/').in(room).emit('auction-status-change', 'FINISHED');
+            socketManager.auctionFinished(highestBid.user.fullName);
         } catch (e) {
             console.error(e);
         }
