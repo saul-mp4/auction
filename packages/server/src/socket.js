@@ -12,6 +12,7 @@ export const socketManager = {
                 origin: process.env.CLIENT_URL,
                 methods: ['GET', 'POST'],
             },
+            transports: ['polling', 'websocket'],
         });
 
         this.handleMiddlewares();
