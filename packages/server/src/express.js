@@ -17,7 +17,7 @@ export const expressManager = {
         this.app.use(express.json());
         this.app.use(
             cors({
-                origin: 'http://localhost:5173',
+                origin: process.env.CLIENT_URL,
                 methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
                 allowedHeaders: ['Content-Type', 'Authorization'],
             })
