@@ -32,6 +32,7 @@ export function CountdownTimer({ startTime, endTime, status }) {
         <div>
             <h2>{title()}</h2>
             <Countdown
+                key={date().toString()}
                 date={date()}
                 intervalDelay={0}
                 precision={3}

@@ -23,7 +23,6 @@ model User {
   items          Item[]
   bids           Bid[]
   hostedAuctions Auction[] @relation("HostedAuctions")
-  activeAuctions Auction[] @relation("ActiveAuctions")
 
   @@map("users")
 }
@@ -74,9 +73,8 @@ model Auction {
   userSeller   User   @relation("HostedAuctions", fields: [userSellerId], references: [id])
   userSellerId String @map("user_seller_id")
 
-  userBuyers User[] @relation("ActiveAuctions")
-  items      Item[]
-  bids       Bid[]
+  items Item[]
+  bids  Bid[]
 
   @@map("auctions")
 }

@@ -24,7 +24,9 @@ export function Bids({ status, loadedBids, auctionId, itemId }) {
     };
 
     useEffect(() => {
-        socket.on('update-bids', (event) => setBids([...bids, event]));
+        socket.on('update-bids', (event) =>
+            setBids([event, ...bids].slice(0, 5))
+        );
         return () => {
             socket.off('update-bids');
         };
