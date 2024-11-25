@@ -26,9 +26,10 @@ export async function registerAction({ request }) {
 
 export async function createAuctionAction({ request }) {
     const formData = await request.formData();
+    const startTime = new Date(Date.now() + 2 * 60 * 1000).toISOString();
     const response = await auctionRequests.post(
         formData.get('title'),
-        formData.get('startTime'),
+        startTime,
         formData.get('items')
     );
 
